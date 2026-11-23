@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elegance Cleaning Services | Home, Carpet &amp; Upholstery Cleaning in MA &amp; RI</title>
+<meta name="description" content="Elegance Cleaning Services: house cleaning, carpet, rug and upholstery cleaning across Southeastern Massachusetts and Rhode Island. Get an instant estimate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/mark-navy.png">
+<style>
+:root{
+  --navy:#241862; --indigo:#2f2390; --indigo-2:#4536b8; --lav:#eeecfb; --lav-2:#dcd8f5;
+  --aqua:#3cc6c0; --aqua-soft:#e3f7f6; --ink:#1b1833; --muted:#5f5c78; --line:#e4e2f0;
+  --bg:#fbfbfe; --white:#fff; --radius:18px; --shadow:0 10px 30px rgba(36,24,98,.10);
+  --shadow-lg:0 24px 60px rgba(36,24,98,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:Outfit,Inter,sans-serif;line-height:1.15;color:var(--navy);letter-spacing:-.01em}
+h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800}
+h2{font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:700}
+h3{font-size:1.25rem;font-weight:600}
+p{color:var(--muted)}
+a{color:inherit}
+img{max-width:100%;display:block}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 .78rem/1 Outfit,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--indigo-2);background:var(--lav);padding:8px 14px;border-radius:99px}
+.eyebrow.on-dark{background:rgba(255,255,255,.12);color:#cfc9ff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:99px;padding:14px 24px;font:600 1rem Outfit,sans-serif;text-decoration:none;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--indigo);color:#fff;box-shadow:0 8px 20px rgba(47,35,144,.3)}
+.btn-primary:hover{background:var(--navy)}
+.btn-aqua{background:var(--aqua);color:#08302e;box-shadow:0 8px 20px rgba(60,198,192,.35)}
+.btn-ghost{background:transparent;color:var(--indigo);border:2px solid var(--lav-2)}
+.btn-ghost:hover{border-color:var(--indigo)}
+.btn-white{background:#fff;color:var(--navy)}
+.btn-outline-white{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4)}
+section{padding:88px 0}
+.center{text-align:center}
+.section-head{max-width:720px;margin:0 auto 48px;text-align:center}
+.section-head h2{margin:16px 0 12px}
+
+/* Top bar + nav */
+.topbar{background:var(--navy);color:#d9d4ff;font-size:.86rem}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+.topbar a{color:#fff;text-decoration:none;font-weight:600}
+header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:44px;width:auto}
+.brand b{display:block;font:800 1.15rem/1 Outfit,sans-serif;letter-spacing:.12em;color:var(--navy)}
+.brand span{display:block;font-size:.74rem;color:var(--muted);letter-spacing:.04em;margin-top:3px}
+nav.links{display:flex;gap:4px;align-items:center}
+nav.links a{text-decoration:none;font:500 .95rem Outfit,sans-serif;color:var(--ink);padding:10px 14px;border-radius:99px;transition:background .15s}
+nav.links a:hover{background:var(--lav)}
+nav.links a.active{background:var(--lav);color:var(--indigo)}
+nav.links .btn{margin-left:8px;padding:11px 20px}
+.burger{display:none;background:none;border:0;width:44px;height:44px;border-radius:12px}
+.burger span{display:block;width:22px;height:2px;background:var(--navy);margin:5px auto;border-radius:2px;transition:.2s}
+
+/* Views */
+.view{display:none;animation:fade .35s ease}
+.view.show{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:radial-gradient(1200px 600px at 85% -10%,#e6e2ff 0,transparent 60%),radial-gradient(700px 400px at -10% 110%,var(--aqua-soft) 0,transparent 60%),var(--bg);padding:72px 0 96px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero h1 span{background:linear-gradient(90deg,var(--indigo),var(--indigo-2) 60%,#2fb3ad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:1.15rem;margin:20px 0 32px;max-width:540px}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap}
+.trust{display:flex;gap:28px;margin-top:40px;flex-wrap:wrap}
+.trust div{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--muted)}
+.trust svg{flex:none}
+.hero-collage{position:relative;height:520px}
+.hero-collage .ph{position:absolute;border-radius:24px;overflow:hidden;box-shadow:var(--shadow-lg);border:6px solid #fff;background:#fff}
+.hero-collage .ph img{width:100%;height:100%;object-fit:cover}
+.ph.a{width:58%;height:70%;left:0;top:4%;transform:rotate(-3deg)}
+.ph.b{width:46%;height:56%;right:0;top:0;transform:rotate(3deg)}
+.ph.c{width:52%;height:44%;right:6%;bottom:0;transform:rotate(-1.5deg)}
+.badge-float{position:absolute;left:4%;bottom:6%;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:var(--shadow);display:flex;gap:12px;align-items:center;z-index:3}
+.badge-float b{font:700 1.4rem Outfit,Inter,system-ui,sans-serif;color:var(--navy);display:block;line-height:1}
+.badge-float small{color:var(--muted);font-size:.8rem}
+.sparkle{position:absolute;z-index:4;animation:twinkle 2.6s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.1)}}
+
+/* Service split cards */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.svc-card{position:relative;border-radius:28px;overflow:hidden;min-height:460px;display:flex;flex-direction:column;justify-content:flex-end;padding:36px;color:#fff;text-decoration:none;box-shadow:var(--shadow);isolation:isolate;transition:transform .25s,box-shadow .25s}
+.svc-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.svc-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .6s}
+.svc-card:hover img{transform:scale(1.05)}
+.svc-card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(36,24,98,0) 20%,rgba(36,24,98,.92) 78%)}
+.svc-card .eyebrow{align-self:flex-start}
+.svc-card h3{color:#fff;font-size:1.9rem;margin:12px 0 8px}
+.svc-card p{color:#e3defc;margin-bottom:18px;max-width:420px}
+.svc-card ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.svc-card li{font-size:.82rem;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);padding:6px 12px;border-radius:99px}
+.svc-card .go{display:inline-flex;align-items:center;gap:8px;font:600 1rem Outfit,Inter,system-ui,sans-serif}
+
+/* Feature list */
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.feat{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.feat .ic{width:48px;height:48px;border-radius:14px;background:var(--lav);display:grid;place-items:center;margin-bottom:16px}
+.feat h3{font-size:1.08rem;margin-bottom:6px}
+.feat p{font-size:.93rem}
+
+/* Before/After slider */
+.ba-band{background:linear-gradient(180deg,#fff,var(--lav) 140%)}
+.ba-wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.ba{position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:4/5;max-height:620px;background:#ddd;user-select:none;touch-action:pan-y;cursor:ew-resize}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .after-clip{position:absolute;inset:0;clip-path:inset(0 0 0 50%)}
+.ba .handle{position:absolute;top:0;bottom:0;left:50%;width:4px;background:#fff;transform:translateX(-2px);box-shadow:0 0 12px rgba(0,0,0,.3)}
+.ba .knob{position:absolute;top:50%;left:50%;width:54px;height:54px;border-radius:50%;background:#fff;transform:translate(-50%,-50%);display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.ba .tag{position:absolute;top:16px;font:700 .78rem Outfit,Inter,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:99px;background:rgba(27,24,51,.75);color:#fff}
+.ba .tag.l{left:16px}.ba .tag.r{right:16px;background:var(--aqua);color:#08302e}
+.ba-thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+.ba-thumbs button{border:3px solid transparent;border-radius:14px;overflow:hidden;padding:0;background:none;aspect-ratio:1;transition:border-color .15s}
+.ba-thumbs button.on{border-color:var(--indigo)}
+.ba-thumbs img{width:100%;height:100%;object-fit:cover}
+.ba-copy h2{margin:16px 0 14px}
+.ba-copy .cap{margin-top:18px;padding:16px 18px;border-left:4px solid var(--aqua);background:#fff;border-radius:0 12px 12px 0;font-size:.95rem}
+
+/* Videos */
+.videos{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.vid{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:9/16;display:block;box-shadow:var(--shadow);text-decoration:none;background:#111}
+.vid img{width:100%;height:100%;object-fit:cover;transition:transform .5s,opacity .3s;opacity:.92}
+.vid:hover img{transform:scale(1.06);opacity:1}
+.vid .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.3);transition:transform .2s}
+.vid:hover .play{transform:translate(-50%,-50%) scale(1.1)}
+.vid .vcap{position:absolute;left:0;right:0;bottom:0;padding:40px 14px 14px;background:linear-gradient(transparent,rgba(20,14,60,.9));color:#fff;font:600 .92rem Outfit,Inter,system-ui,sans-serif}
+.vid .vcap small{display:block;font:500 .74rem Inter,system-ui,sans-serif;color:#cfc9ff;margin-top:2px}
+
+/* Map */
+.map-section{background:var(--navy);color:#fff;padding-bottom:0}
+.map-section h2{color:#fff}
+.map-section p{color:#c9c3f2}
+.map-grid{display:grid;grid-template-columns:320px 1fr;gap:28px;align-items:start}
+.city-panel{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;max-height:620px;overflow:auto}
+.city-panel h4{color:#fff;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;margin:6px 0 12px;display:flex;align-items:center;gap:8px}
+.city-panel h4:not(:first-child){margin-top:22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid rgba(255,255,255,.2);background:transparent;color:#e7e3ff;border-radius:99px;padding:7px 12px;font-size:.85rem;transition:.15s}
+.chip:hover,.chip.on{background:#fff;color:var(--navy);border-color:#fff}
+.zip-check{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12)}
+.zip-check label{font-size:.85rem;color:#c9c3f2}
+.zip-row{display:flex;gap:8px;margin-top:8px}
+.zip-row input{flex:1;min-width:0;border-radius:12px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:#fff;padding:10px 12px;font:inherit}
+.zip-row input::placeholder{color:#a9a3d6}
+.zip-msg{font-size:.88rem;margin-top:10px;min-height:1.4em;color:#fff}
+.mapbox{position:relative;border-radius:24px 24px 0 0;overflow:hidden;background:#aad3df;box-shadow:0 -10px 40px rgba(0,0,0,.25);height:620px;touch-action:none;cursor:grab}
+.mapbox.drag{cursor:grabbing}
+.map-stage{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
+.map-stage img{width:2069px;height:1618px;max-width:none;filter:saturate(.85)}
+.map-stage svg{position:absolute;inset:0;width:2069px;height:1618px;overflow:visible}
+.area{fill:rgba(69,54,184,.18);stroke:#4536b8;stroke-width:4;stroke-dasharray:14 10;animation:dash 30s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-480}}
+.pin{cursor:pointer}
+.pin .pulse{fill:rgba(69,54,184,.25);transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(.4);opacity:1}100%{transform:scale(1.6);opacity:0}}
+.pin .dot{fill:var(--navy);stroke:#fff;stroke-width:5}
+.pin.hq .dot{fill:var(--aqua)}
+.pin text{font:700 30px Outfit,sans-serif;fill:var(--navy);paint-order:stroke;stroke:#fff;stroke-width:8px;stroke-linejoin:round;opacity:0;transition:opacity .2s;pointer-events:none}
+.pin:hover text,.pin.on text,.mapbox.labels .pin text{opacity:1}
+.pin.on .dot{fill:var(--aqua)}
+.map-ctrl{position:absolute;right:16px;top:16px;display:flex;flex-direction:column;gap:8px;z-index:5}
+.map-ctrl button{width:42px;height:42px;border-radius:12px;border:0;background:#fff;color:var(--navy);font:700 1.3rem Outfit,Inter,system-ui,sans-serif;box-shadow:var(--shadow)}
+.map-legend{position:absolute;left:16px;bottom:16px;z-index:5;background:rgba(255,255,255,.95);color:var(--ink);border-radius:14px;padding:10px 14px;font-size:.82rem;display:flex;gap:14px;align-items:center;box-shadow:var(--shadow);flex-wrap:wrap}
+.map-legend i{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:6px}
+.map-attr{position:absolute;right:8px;bottom:6px;z-index:5;font-size:.7rem;background:rgba(255,255,255,.8);color:#333;padding:2px 6px;border-radius:6px}
+.map-attr a{color:#333}
+
+/* Page hero (service pages) */
+.page-hero{position:relative;padding:80px 0 70px;color:#fff;overflow:hidden;isolation:isolate}
+.page-hero .bg{position:absolute;inset:0;z-index:-2}
+.page-hero .bg img{width:100%;height:100%;object-fit:cover;filter:blur(2px) brightness(.9);transform:scale(1.05)}
+.page-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(36,24,98,.96) 30%,rgba(47,35,144,.7) 70%,rgba(60,198,192,.35))}
+.page-hero h1{color:#fff;margin:16px 0 14px;max-width:760px}
+.page-hero p{color:#ddd8ff;font-size:1.12rem;max-width:620px;margin-bottom:28px}
+.page-hero .ctas{display:flex;gap:12px;flex-wrap:wrap}
+
+.pkg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.pkg{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.pkg:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.pkg.pop{border:2px solid var(--indigo);position:relative}
+.pop-badge{position:absolute;top:-13px;left:28px;background:var(--indigo);color:#fff;font:600 .75rem Outfit,Inter,system-ui,sans-serif;padding:5px 12px;border-radius:99px;letter-spacing:.04em}
+.pkg h3{font-size:1.35rem}
+.pkg .from{margin:10px 0 14px;font:700 1.9rem Outfit,Inter,system-ui,sans-serif;color:var(--navy)}
+.pkg .from small{font:500 .85rem Inter,system-ui,sans-serif;color:var(--muted)}
+.pkg ul{list-style:none;margin:10px 0 24px;flex:1}
+.pkg li{display:flex;gap:10px;padding:7px 0;font-size:.94rem;color:var(--ink);border-bottom:1px dashed var(--line)}
+.pkg li:last-child{border:0}
+.pkg li svg{flex:none;margin-top:4px}
+
+.checklist{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.room{background:#fff;border-radius:20px;padding:26px;border:1px solid var(--line)}
+.room h3{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.room ul{list-style:none}
+.room li{font-size:.92rem;color:var(--muted);padding:5px 0 5px 22px;position:relative}
+.room li::before{content:"";position:absolute;left:0;top:12px;width:10px;height:10px;border-radius:50%;background:var(--aqua-soft);border:2px solid var(--aqua)}
+
+.media-row{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.media-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.media-pair img,.media-pair a{border-radius:20px;box-shadow:var(--shadow);aspect-ratio:9/14;object-fit:cover;width:100%}
+.media-pair a{position:relative;display:block;overflow:hidden}
+.media-pair a img{border-radius:0;box-shadow:none;height:100%}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+.step{position:relative;background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px 22px}
+.step::before{counter-increment:s;content:"0" counter(s);font:800 2.2rem Outfit,Inter,system-ui,sans-serif;color:var(--lav-2);display:block;margin-bottom:6px}
+.step h3{font-size:1.05rem;margin-bottom:6px}
+.step p{font-size:.9rem}
+
+.price-table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border-radius:20px;overflow:hidden;border:1px solid var(--line)}
+.price-table th,.price-table td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--line);font-size:.95rem}
+.price-table th{background:var(--lav);font:600 .85rem Outfit,Inter,system-ui,sans-serif;color:var(--navy);letter-spacing:.06em;text-transform:uppercase}
+.price-table tr:last-child td{border-bottom:0}
+.price-table td:last-child{font-weight:600;color:var(--navy);white-space:nowrap}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+
+/* Estimator */
+.est-tabs{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:99px;padding:6px;gap:4px;margin-bottom:30px;box-shadow:var(--shadow)}
+.est-tabs button{border:0;background:transparent;padding:12px 22px;border-radius:99px;font:600 .98rem Outfit,Inter,system-ui,sans-serif;color:var(--muted);display:flex;align-items:center;gap:8px}
+.est-tabs button.on{background:var(--indigo);color:#fff}
+.est-grid{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:start}
+.est-form{background:#fff;border:1px solid var(--line);border-radius:24px;padding:30px}
+.fgroup{padding:22px 0;border-bottom:1px solid var(--line)}
+.fgroup:first-child{padding-top:0}
+.fgroup:last-child{border:0;padding-bottom:0}
+.fgroup > label,.flabel{display:block;font:600 1rem Outfit,Inter,system-ui,sans-serif;color:var(--navy);margin-bottom:12px}
+.flabel small{font:400 .84rem Inter,system-ui,sans-serif;color:var(--muted);margin-left:6px}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt span{display:block;border:2px solid var(--line);border-radius:14px;padding:12px 14px;font-size:.92rem;cursor:pointer;transition:.15s;height:100%}
+.opt span b{display:block;font:600 .98rem Outfit,Inter,system-ui,sans-serif;color:var(--ink)}
+.opt span em{font-style:normal;font-size:.8rem;color:var(--muted)}
+.opt input:checked + span{border-color:var(--indigo);background:var(--lav)}
+.opt input:focus-visible + span{outline:3px solid var(--aqua)}
+.counters{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.counter{display:flex;align-items:center;justify-content:space-between;border:1px solid var(--line);border-radius:14px;padding:10px 12px 10px 16px;gap:10px}
+.counter .cl{font-size:.92rem}
+.counter .cl small{display:block;color:var(--muted);font-size:.78rem}
+.stepper{display:flex;align-items:center;gap:6px}
+.stepper button{width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--navy);font:700 1.1rem Outfit,Inter,system-ui,sans-serif;display:grid;place-items:center}
+.stepper button:hover{background:var(--lav)}
+.stepper output{min-width:26px;text-align:center;font:700 1.05rem Outfit,Inter,system-ui,sans-serif;color:var(--navy)}
+.range-row{display:flex;align-items:center;gap:16px}
+.range-row input[type=range]{flex:1;accent-color:var(--indigo)}
+.range-val{min-width:120px;text-align:right;font:700 1.05rem Outfit,Inter,system-ui,sans-serif;color:var(--navy)}
+.checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.check{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:14px;padding:12px 14px;cursor:pointer;font-size:.92rem;transition:.15s}
+.check:hover{border-color:var(--lav-2)}
+.check input{accent-color:var(--indigo);width:18px;height:18px}
+.check small{margin-left:auto;color:var(--muted);font-size:.8rem;white-space:nowrap}
+.rooms-list{display:flex;flex-direction:column;gap:10px}
+.room-row{display:grid;grid-template-columns:1.2fr 1.6fr 40px;gap:10px;align-items:center}
+.room-row select,.room-row input,.qform input,.qform select,.qform textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px 12px;font:inherit;background:#fff;color:var(--ink)}
+.room-row .rm{width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:#fff;color:#b33;font-size:1.2rem}
+.add-room{margin-top:12px;border:2px dashed var(--lav-2);background:transparent;color:var(--indigo);border-radius:14px;padding:12px;width:100%;font:600 .95rem Outfit,Inter,system-ui,sans-serif}
+.add-room:hover{background:var(--lav)}
+.summary{position:sticky;top:96px;background:linear-gradient(160deg,var(--navy),var(--indigo) 70%,#3a2db0);color:#fff;border-radius:24px;padding:28px;box-shadow:var(--shadow-lg);overflow:hidden}
+.summary::after{content:"";position:absolute;width:260px;height:260px;right:-90px;top:-90px;border-radius:50%;background:rgba(60,198,192,.18)}
+.summary h3{color:#fff;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;opacity:.85}
+.summary .big{font:800 2.6rem/1.1 Outfit,Inter,system-ui,sans-serif;margin:12px 0 4px;position:relative;z-index:1}
+.summary .sub{color:#c9c3f2;font-size:.88rem}
+.summary .lines{margin:18px 0;padding:14px 0;border-top:1px solid rgba(255,255,255,.15);border-bottom:1px solid rgba(255,255,255,.15);font-size:.9rem;max-height:260px;overflow:auto}
+.summary .lines div{display:flex;justify-content:space-between;gap:10px;padding:4px 0;color:#e3defc}
+.summary .lines div.disc{color:#8ff0ea}
+.summary .meta{display:flex;gap:14px;margin-bottom:18px;font-size:.85rem;color:#d7d2ff}
+.summary .meta span{display:flex;align-items:center;gap:6px}
+.summary .btn{width:100%;margin-top:10px}
+.summary .fine{font-size:.76rem;color:#b5aee8;margin-top:14px;line-height:1.5}
+
+/* Quote modal */
+.modal{position:fixed;inset:0;z-index:100;background:rgba(20,14,60,.55);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:20px}
+.modal.open{display:flex}
+.modal-card{background:#fff;border-radius:24px;max-width:560px;width:100%;max-height:92vh;overflow:auto;padding:30px;box-shadow:var(--shadow-lg);animation:fade .25s}
+.modal-card h3{font-size:1.5rem;margin-bottom:6px}
+.qform{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+.qform .full{grid-column:1/-1}
+.qform label{font-size:.82rem;color:var(--muted);display:block;margin-bottom:4px}
+.msg-box{background:var(--lav);border-radius:14px;padding:14px;font-size:.88rem;white-space:pre-wrap;color:var(--ink);max-height:200px;overflow:auto;margin:14px 0}
+.modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.x{float:right;border:0;background:var(--lav);width:36px;height:36px;border-radius:50%;font-size:1.1rem;color:var(--navy)}
+
+/* Gallery */
+.gal-filter{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:30px}
+.gal-filter button{border:1px solid var(--line);background:#fff;border-radius:99px;padding:9px 18px;font:500 .92rem Outfit,Inter,system-ui,sans-serif;color:var(--muted)}
+.gal-filter button.on{background:var(--indigo);color:#fff;border-color:var(--indigo)}
+.gallery{columns:3 280px;column-gap:18px}
+.gitem{break-inside:avoid;margin-bottom:18px;border-radius:20px;overflow:hidden;position:relative;box-shadow:var(--shadow);background:#fff;cursor:zoom-in;display:block;text-decoration:none}
+.gitem img{width:100%;transition:transform .5s}
+.gitem:hover img{transform:scale(1.04)}
+.gitem .gcap{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.95);color:var(--navy);font:600 .8rem Outfit,Inter,system-ui,sans-serif;padding:6px 12px;border-radius:99px}
+.gitem.hide{display:none}
+.lightbox{position:fixed;inset:0;z-index:120;background:rgba(10,8,30,.92);display:none;align-items:center;justify-content:center;padding:30px}
+.lightbox.open{display:flex}
+.lightbox img{max-height:88vh;max-width:92vw;border-radius:14px}
+.lightbox .x{position:absolute;top:20px;right:20px;background:#fff}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.about-card{background:linear-gradient(160deg,var(--navy),var(--indigo));border-radius:28px;padding:48px;color:#fff;position:relative;overflow:hidden}
+.about-card img{width:200px;margin:0 auto 24px}
+.about-card blockquote{font:500 1.25rem/1.5 Outfit,Inter,system-ui,sans-serif;color:#fff;text-align:center}
+.about-card cite{display:block;text-align:center;margin-top:16px;color:#c9c3f2;font-style:normal;font-size:.9rem}
+.values{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
+.values div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+.values b{font:600 1rem Outfit,Inter,system-ui,sans-serif;color:var(--navy);display:block;margin-bottom:4px}
+.values p{font-size:.88rem}
+
+/* Contact */
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ccard{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;text-align:center;text-decoration:none;transition:.2s}
+.ccard:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.ccard .ic{width:64px;height:64px;border-radius:50%;background:var(--indigo);display:grid;place-items:center;margin:0 auto 16px}
+.ccard b{font:600 1.15rem Outfit,Inter,system-ui,sans-serif;color:var(--navy);display:block;word-break:break-word}
+.ccard small{color:var(--muted)}
+
+/* CTA band */
+.cta-band{background:linear-gradient(120deg,var(--indigo),var(--navy));border-radius:30px;padding:56px;display:flex;justify-content:space-between;align-items:center;gap:30px;color:#fff;flex-wrap:wrap;position:relative;overflow:hidden}
+.cta-band h2{color:#fff}
+.cta-band p{color:#d1cbff;margin-top:8px}
+.cta-band .ctas{display:flex;gap:12px;flex-wrap:wrap}
+
+footer{background:#140e3f;color:#b9b3e6;padding:56px 0 28px;font-size:.9rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+footer h4{color:#fff;font-size:.95rem;margin-bottom:12px}
+footer a{color:#d8d3ff;text-decoration:none;display:block;padding:3px 0}
+footer a:hover{color:#fff}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:36px;padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.8rem}
+
+.fab{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;flex-direction:column;gap:10px}
+.fab a{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;box-shadow:var(--shadow-lg);background:var(--indigo)}
+.fab a.est{background:var(--aqua)}
+.toast{visibility:hidden;position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(120px);background:var(--navy);color:#fff;padding:12px 20px;border-radius:99px;z-index:200;transition:transform .3s;font-size:.92rem}
+.toast.show{visibility:visible;transform:translateX(-50%) translateY(0)}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:1020px){
+  .hero-grid,.ba-wrap,.media-row,.about-grid,.est-grid,.map-grid{grid-template-columns:1fr}
+  .hero-collage{height:440px}
+  .features,.steps{grid-template-columns:1fr 1fr}
+  .pkg-grid,.checklist{grid-template-columns:1fr 1fr}
+  .videos{grid-template-columns:repeat(3,1fr)}
+  .summary{position:relative;top:0}
+  .city-panel{max-height:none}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:1180px){
+  nav.links{position:fixed;top:0;right:0;bottom:0;width:min(320px,86vw);background:#fff;flex-direction:column;align-items:stretch;padding:90px 20px 20px;transform:translateX(100%);transition:transform .3s;box-shadow:var(--shadow-lg);z-index:70}
+  nav.links{visibility:hidden}
+  nav.links.open{transform:none;visibility:visible}
+  header.nav{backdrop-filter:none;-webkit-backdrop-filter:none;background:#fff}
+  nav.links a{padding:14px 16px;font-size:1.05rem}
+  nav.links .btn{margin:10px 0 0}
+  .burger{display:block;position:relative;z-index:80}
+  .topbar .hide-sm{display:none}
+}
+@media (max-width:680px){
+  section{padding:64px 0}
+  .split,.pkg-grid,.checklist,.two-col,.contact-grid,.values{grid-template-columns:1fr}
+  .features,.steps{grid-template-columns:1fr}
+  .videos{grid-template-columns:repeat(2,1fr)}
+  .videos .vid:nth-child(5){display:none}
+  .svc-card{min-height:380px;padding:26px}
+  .hero{padding:48px 0 64px}
+  .hero-collage{height:360px}
+  .mapbox{height:460px}
+  .cta-band{padding:34px}
+  .est-form{padding:20px}
+  .room-row{grid-template-columns:1fr 1fr 40px}
+  .qform{grid-template-columns:1fr}
+  .est-tabs{display:flex;width:100%}
+  .est-tabs button{flex:1;justify-content:center;padding:12px 10px;font-size:.9rem}
+  .brand span{display:none}
+  .foot-grid{grid-template-columns:1fr}
+}
+
+/* ===== Refined, premium style (inspired by classic boutique cleaners) ===== */
+:root{--bg:#f6f4f0;--serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;--radius:8px;--shadow:0 6px 24px rgba(30,24,60,.07);--shadow-lg:0 18px 48px rgba(30,24,60,.14)}
+body{background:var(--bg);color:#2c2c34}
+p{color:#5e5c6a}
+h1,h2,.display{font-family:var(--serif);font-weight:400;letter-spacing:0;color:var(--navy)}
+.display strong{font-weight:600}
+h2.display{font-size:clamp(2.1rem,3.8vw,3rem);line-height:1.1}
+h3{font-family:var(--serif);font-weight:600;font-size:1.45rem;letter-spacing:0}
+.kicker{font:500 .74rem/1.4 Inter,system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6d6a80;margin-bottom:14px}
+.kicker.light{color:#bdb7e8}
+.rule{display:block;width:44px;height:2px;background:var(--indigo-2);margin:22px 0}
+.rule.c{margin:18px auto 18px}
+.section-head h2{margin:0}
+.btn{border-radius:4px;font:600 .92rem Inter,system-ui,sans-serif;letter-spacing:.02em;padding:15px 26px}
+.btn-primary{background:var(--navy);box-shadow:none}
+.btn-primary:hover{background:var(--indigo)}
+.btn-ghost{border:1px solid #c9c5d9;color:var(--navy);background:transparent}
+.btn-aqua{background:#fff;color:var(--navy);box-shadow:none}
+.btn-aqua:hover{background:var(--lav)}
+.hero{background:var(--bg);padding:70px 0 80px}
+.hero h1.display{font-size:clamp(2.6rem,5.2vw,4.3rem);line-height:1.05;font-weight:300;color:#23203a}
+.hero h1.display strong{font-weight:600;color:var(--navy)}
+.hero p.lead{margin:0 0 34px;font-size:1.05rem;text-align:justify;max-width:520px}
+.hero-circles{position:relative;height:540px}
+.circ{position:absolute;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-lg);border:6px solid #fff;animation:floaty 7s ease-in-out infinite}
+.circ img{width:100%;height:100%;object-fit:cover}
+.c1{width:330px;height:330px;right:40px;top:0}
+.c2{width:200px;height:200px;left:10px;top:70px;animation-delay:-2s}
+.c3{width:170px;height:170px;left:70px;bottom:40px;animation-delay:-4s}
+.c4{width:230px;height:230px;right:0;bottom:0;animation-delay:-1s}
+.hero-mark{position:absolute;left:48%;top:48%;width:86px;opacity:.9;transform:translate(-50%,-50%)}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.ticker{background:var(--navy);color:#fff;overflow:hidden;white-space:nowrap;padding:16px 0}
+.ticker-track{display:inline-flex;gap:28px;align-items:center;animation:tick 40s linear infinite;font:500 .78rem Inter,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase}
+.ticker i{font-style:normal;color:#9d93ee}
+@keyframes tick{to{transform:translateX(-50%)}}
+.features{gap:22px}
+.feat{border:0;border-radius:6px;padding:40px 28px;text-align:center;box-shadow:var(--shadow);background:#fff}
+.feat .num{font:italic 400 3rem/1 var(--serif);color:var(--indigo-2);margin-bottom:18px}
+.feat h3{font-size:1.4rem;margin-bottom:12px;font-weight:500}
+.feat p{font-size:.92rem;text-align:left}
+.svc-card{border-radius:6px;min-height:520px}
+.svc-card h3{font:500 2.3rem/1.1 var(--serif);color:#fff}
+.svc-card .eyebrow{background:none;border:0;padding:0;color:#d8d3ff;letter-spacing:.22em;font:500 .74rem Inter,sans-serif}
+.svc-card li{border-radius:3px}
+.ba{border-radius:6px}
+.ba-band{background:#fff}
+.ba-thumbs button{border-radius:4px}
+.ba-copy .cap{border-left-color:var(--indigo-2)}
+.vid{border-radius:6px}
+.vid .vcap{font:500 1.15rem var(--serif)}
+.pkg,.room,.step,.est-form,.ccard,.price-table,.values div{border-radius:6px;border-color:#e8e5ee}
+.pkg .from{font:500 2.4rem var(--serif)}
+.pop-badge{border-radius:3px}
+.step::before{font:italic 400 2.6rem var(--serif);color:var(--indigo-2)}
+.page-hero h1{font-weight:400;font-size:clamp(2.4rem,4.6vw,3.8rem)}
+.page-hero .eyebrow,.eyebrow.on-dark{background:none;padding:0;letter-spacing:.22em;font:500 .74rem Inter,sans-serif;color:#d8d3ff}
+.eyebrow{background:none;padding:0;font:500 .74rem Inter,sans-serif;letter-spacing:.22em;color:#6d6a80}
+.cta-band{border-radius:6px;background:var(--navy)}
+.cta-band h2{font-family:var(--serif);font-weight:400}
+.summary{border-radius:6px;background:var(--navy)}
+.summary .big{font:500 2.8rem/1.1 var(--serif)}
+.est-tabs{border-radius:4px}.est-tabs button{border-radius:3px}.est-tabs button.on{background:var(--navy)}
+.opt span,.check,.counter{border-radius:6px}
+.opt input:checked + span{border-color:var(--navy);background:#f1effa}
+.about-card{border-radius:6px;background:var(--navy)}
+.about-card blockquote{font:italic 400 1.6rem/1.4 var(--serif)}
+.faq-sec{background:#fff}
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:start}
+.faq details{border-bottom:1px solid #e8e5ee;padding:20px 0}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;font:500 1.35rem var(--serif);color:var(--navy)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:300 1.6rem Inter,sans-serif;color:var(--indigo-2);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{margin-top:12px;font-size:.96rem}
+.map-section{background:#1a1347}
+.mapbox{border-radius:6px 6px 0 0}
+.city-panel{border-radius:6px}
+.chip{border-radius:3px}
+.gal-filter button{border-radius:3px}.gal-filter button.on{background:var(--navy)}
+.gitem{border-radius:6px}
+.gitem .gcap{border-radius:3px;font:500 1rem var(--serif)}
+nav.links a{border-radius:3px;font:500 .9rem Inter,system-ui,sans-serif}
+nav.links a.active{background:none;color:var(--navy);box-shadow:inset 0 -2px 0 var(--indigo-2)}
+nav.links .btn{color:#fff}
+nav.links .btn:hover{background:var(--indigo)}
+nav.links .btn.active{box-shadow:none;background:var(--indigo);color:#fff}
+.brand b{font-family:Outfit,Inter,sans-serif}
+.fab a{background:var(--navy)}.fab a.est{background:#fff}
+.fab a.est svg{stroke:var(--navy)}
+@media (max-width:1020px){.faq-grid{grid-template-columns:1fr;gap:20px}.hero-circles{height:480px;max-width:560px;margin:0 auto;width:100%}}
+@media (max-width:680px){.hero-circles{height:340px}.c1{width:210px;height:210px;right:10px}.c2{width:130px;height:130px;top:30px}.c3{width:115px;height:115px;left:40px;bottom:20px}.c4{width:150px;height:150px}.hero-mark{width:56px}.svc-card{min-height:420px}.svc-card h3{font-size:1.9rem}.hero p.lead{text-align:left}}
+
+.team-photo{position:relative;padding-bottom:60px}
+.team-photo img{border-radius:6px;box-shadow:var(--shadow-lg);width:88%;aspect-ratio:1/1;object-fit:cover}
+.team-photo .team-inset{position:absolute;right:0;bottom:0;width:46%;aspect-ratio:1/1;border:6px solid #fff}
+.ticks{list-style:none;margin-top:18px}
+.ticks li{position:relative;padding:8px 0 8px 30px;color:#3b3950;border-bottom:1px dashed #e4e1ec}
+.ticks li::before{content:"";position:absolute;left:4px;top:15px;width:12px;height:7px;border-left:2px solid var(--indigo-2);border-bottom:2px solid var(--indigo-2);transform:rotate(-45deg)}
+.about-photo{position:relative}
+.about-photo img{border-radius:6px;box-shadow:var(--shadow-lg);aspect-ratio:4/5;object-fit:cover;width:100%}
+.about-photo::after{content:"";position:absolute;left:-18px;top:-18px;width:120px;height:120px;border-left:2px solid var(--indigo-2);border-top:2px solid var(--indigo-2);border-radius:6px 0 0 0;pointer-events:none}
+
+.lang{display:flex;gap:2px;border:1px solid #dcd9e6;border-radius:4px;padding:3px;margin-left:auto;margin-right:4px}
+.lang button{border:0;background:transparent;font:600 .75rem Inter,system-ui,sans-serif;letter-spacing:.08em;color:#6d6a80;padding:6px 8px;border-radius:3px}
+.lang button.on{background:var(--navy);color:#fff}
+header.nav .wrap{gap:14px}
+nav.links{order:0}
+@media (min-width:1181px){.lang{order:2;margin-left:6px}}
+nav.links a{white-space:nowrap}
+@media (max-width:1440px){.brand span{display:none}}
+
+.room{padding:0;overflow:hidden}
+.room .room-img{width:100%;height:190px;object-fit:cover}
+.room h3,.room ul{padding:0 26px}
+.room h3{margin-top:22px}
+.room ul{padding-bottom:24px}
+.addon-imgs{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.addon-imgs figure{position:relative;border-radius:6px;overflow:hidden;box-shadow:var(--shadow)}
+.addon-imgs img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.addon-imgs figcaption{position:absolute;left:8px;bottom:8px;right:8px;background:rgba(255,255,255,.92);color:var(--navy);font:500 .78rem Inter,sans-serif;padding:5px 9px;border-radius:3px}
+
+/* no decorative dashes */
+.rule{display:none!important}
+.section-head h2{margin-bottom:14px}
+.hero h1.display{margin-bottom:26px}
+/* header overlap fix */
+@media (max-width:400px){.brand b{font-size:.95rem;letter-spacing:.08em}.brand img{height:34px}.lang button{padding:5px 6px}header.nav .wrap{gap:8px;padding:0 14px}.burger{width:38px}}
+.brand{flex-shrink:0}
+.brand > div{white-space:nowrap}
+nav.links{min-width:0}
+@media (min-width:1181px){.brand span{display:none}header.nav .wrap{max-width:1320px}}
+@media (min-width:1181px) and (max-width:1366px){nav.links a{padding:10px 9px;font-size:.86rem}nav.links .btn{padding:11px 16px}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div>Serving Southeastern Massachusetts &amp; Rhode Island</div>
+    <div style="display:flex;gap:18px;align-items:center">
+      <a class="hide-sm" href="https://www.instagram.com/elegance_cleaningservices/" target="_blank" rel="noopener">@elegance_cleaningservices</a>
+      <a href="tel:+15084937469" data-phone-link>Call or text: <span data-phone>(508) 493-7469</span></a>
+    </div>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#home">
+      <img src="assets/mark-navy.png" alt="Elegance logo">
+      <div><b>ELEGANCE</b><span>Home, Carpet &amp; Upholstery Cleaning</span></div>
+    </a>
+    <nav class="links" id="navlinks">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#house-cleaning" data-nav="house-cleaning">House Cleaning</a>
+      <a href="#carpet-cleaning" data-nav="carpet-cleaning">Carpet &amp; Upholstery</a>
+      <a href="#gallery" data-nav="gallery">Results</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+      <a href="#estimate" class="btn btn-primary" data-nav="estimate">Get an Estimate</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language"><button data-lang="en" class="on">EN</button><button data-lang="es">ES</button><button data-lang="pt">PT</button></div>
+    <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- ================= HOME ================= -->
+<div class="view" id="v-home">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="kicker">Elegance Cleaning Services · Massachusetts &amp; Rhode Island</div>
+        <h1 class="display">Premium cleaning<br>for your home,<br><strong>with Elegance</strong></h1>
+        <span class="rule"></span>
+        <p class="lead">Spotless homes, refreshed carpets and like-new upholstery. Family-owned and owner-led, we bring a personal touch and real results to every room, from Boston to Newport.</p>
+        <div class="ctas">
+          <a href="#estimate" class="btn btn-primary">Get my instant estimate</a>
+          <a href="#gallery" class="btn btn-ghost">See our results</a>
+        </div>
+      </div>
+      <div class="hero-circles" aria-hidden="true">
+        <div class="circ c1"><img src="assets/pro-windows.jpg" alt=""></div>
+        <div class="circ c2"><img src="assets/after-tufted-chair.jpg" alt=""></div>
+        <div class="circ c3"><img src="assets/carpet-extraction.jpg" alt=""></div>
+        <div class="circ c4"><img src="assets/pro-kitchen.jpg" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <div class="ticker" aria-label="Highlights"><div class="ticker-track" id="ticker"></div></div>
+
+  <section style="padding-top:40px">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Our services</div><h2 class="display">Two specialties. One standard of care.</h2><span class="rule c"></span>
+        <p>Choose what your space needs. Each service has its own team process, checklist and price calculator.</p>
+      </div>
+      <div class="split">
+        <a class="svc-card reveal" href="#house-cleaning">
+          <img src="assets/pro-kitchen.jpg" alt="Elegance professional cleaning a kitchen" style="object-position:center 30%">
+          <span class="eyebrow on-dark">House cleaning</span>
+          <h3>Homes &amp; offices, sparkling clean</h3>
+          <p>Standard, deep and move-in/move-out cleaning, plus recurring visits that keep your home ready every day.</p>
+          <ul><li>Standard</li><li>Deep clean</li><li>Move in / out</li><li>Recurring</li><li>Offices</li></ul>
+          <span class="go">Explore house cleaning →</span>
+        </a>
+        <a class="svc-card reveal" href="#carpet-cleaning">
+          <img src="assets/carpet-extraction.jpg" alt="Deep carpet extraction cleaning">
+          <span class="eyebrow on-dark">Carpet &amp; upholstery</span>
+          <h3>Carpets, rugs, sofas &amp; chairs</h3>
+          <p>Deep extraction that lifts stains, odors and allergens from carpet and fabric, and brings back their color.</p>
+          <ul><li>Wall-to-wall carpet</li><li>Area rugs</li><li>Sofas &amp; sectionals</li><li>Chairs</li><li>Mattresses</li></ul>
+          <span class="go">Explore carpet &amp; upholstery →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ba-band">
+    <div class="wrap ba-wrap">
+      <div class="reveal">
+        <div class="ba" id="ba">
+          <img id="ba-before" src="assets/before-tufted-chair.jpg" alt="Before cleaning">
+          <div class="after-clip" id="ba-clip"><img id="ba-after" src="assets/after-tufted-chair.jpg" alt="After cleaning"></div>
+          <span class="tag l">Before</span><span class="tag r">After</span>
+          <div class="handle" id="ba-handle"><div class="knob"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#241862" stroke-width="2.4"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></div></div>
+        </div>
+        <div class="ba-thumbs" id="ba-thumbs"></div>
+      </div>
+      <div class="ba-copy reveal">
+        <span class="eyebrow">Drag to compare</span>
+        <h2>See the Elegance difference</h2>
+        <p>These are real jobs from our clients' homes. Drag the slider to see how much life a professional clean gives back to fabric, rugs and upholstery.</p>
+        <div class="cap" id="ba-cap">Tufted accent chair: stains and dullness removed, fabric restored.</div>
+        <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn btn-primary" href="#gallery">See all results</a>
+          <a class="btn btn-ghost" href="#estimate">Price my job</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Why choose Elegance</div><h2 class="display">The Elegance Difference</h2><span class="rule c"></span></div>
+      <div class="features"><div class="feat reveal"><div class="num">01</div><h3>Owner-Led Service</h3><p>Ítalo and Maristela work side by side on every project, so the quality stays consistent from visit to visit.</p></div><div class="feat reveal"><div class="num">02</div><h3>Healthy, Safe Spaces</h3><p>Products and methods chosen for families, kids and pets, with respect for your home and the environment.</p></div><div class="feat reveal"><div class="num">03</div><h3>Clear, Fair Pricing</h3><p>Price your job online in a minute, then confirm with a quick photo or visit. No surprises on the day.</p></div><div class="feat reveal"><div class="num">04</div><h3>Local to You</h3><p>From Boston and the South Shore to Providence, Newport and Cape Cod, we come right to your door.</p></div></div>
+    </div>
+  </section>
+
+  <section style="background:#fff">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Watch us work</div><h2 class="display">Real cleanings, real results</h2><span class="rule c"></span>
+        <p>Short videos straight from our jobs. Tap any video to watch it on Instagram.</p>
+      </div>
+      <div class="videos" id="videos"></div>
+      <div class="center" style="margin-top:30px"><a class="btn btn-ghost" href="https://www.instagram.com/elegance_cleaningservices/" target="_blank" rel="noopener">Follow @elegance_cleaningservices</a></div>
+    </div>
+  </section>
+
+  <section class="faq-sec">
+    <div class="wrap faq-grid">
+      <div class="reveal"><div class="kicker">FAQ</div><h2 class="display">Your Questions, Answered</h2><span class="rule"></span><p>Can't find what you need? Text us any time at <b data-phone>(508) 493-7469</b>.</p></div>
+      <div class="faq reveal"><details open><summary>How do you calculate my price?</summary><p>Our online calculator uses your home size, rooms and the type of cleaning (or the carpet rooms, rugs and furniture you add). We confirm the final price after reviewing a few photos or a quick visit.</p></details><details><summary>How long does carpet or upholstery take to dry?</summary><p>Most carpets and fabrics are dry in about 4 to 8 hours, depending on the material, humidity and air flow. We groom the fibers and help speed up drying before we leave.</p></details><details><summary>Are your products safe for kids and pets?</summary><p>Yes. We choose products and methods that are safe for families and pets once dry, and we can treat pet odors and accidents at the source.</p></details><details><summary>Do I need to be home during the cleaning?</summary><p>Not necessarily. Many clients give us access instructions. For the first visit we like to do a quick walkthrough with you.</p></details><details><summary>Can you remove every stain?</summary><p>We remove the large majority of everyday stains. Some old, set-in or dye-based stains can only be lightened; we always tell you what to expect before we start.</p></details><details><summary>Which areas do you serve?</summary><p>Southeastern Massachusetts, the South Shore, Greater Boston and Rhode Island. Check your town on the map below.</p></details></div>
+    </div>
+  </section>
+
+  <section class="map-section" id="areas">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:36px"><div class="kicker light">Cities we serve</div><h2 class="display">Our service area</h2><span class="rule c"></span>
+        <p>We serve Southeastern Massachusetts, Greater Boston's South Shore and Rhode Island. Click a city to find it on the map, or check your town below.</p>
+      </div>
+      <div class="map-grid">
+        <aside class="city-panel" id="city-panel">
+          <div class="zip-check" style="margin-top:0;padding-top:0;border:0">
+            <label for="town-in">Is my town covered?</label>
+            <div class="zip-row"><input id="town-in" placeholder="Type your city or town" list="town-list" autocomplete="off"><button class="btn btn-aqua" style="padding:10px 16px" id="town-btn">Check</button></div>
+            <datalist id="town-list"></datalist>
+            <div class="zip-msg" id="town-msg" data-noi18n></div>
+          </div>
+          <div id="city-groups"></div>
+        </aside>
+        <div class="mapbox" id="mapbox">
+          <div class="map-stage" id="map-stage">
+            <img src="assets/map.jpg" alt="Map of Southeastern Massachusetts and Rhode Island" draggable="false">
+            <svg id="map-svg" viewBox="0 0 2069 1618"></svg>
+          </div>
+          <div class="map-ctrl">
+            <button id="zin" aria-label="Zoom in">+</button>
+            <button id="zout" aria-label="Zoom out">−</button>
+            <button id="zreset" aria-label="Reset map" style="font-size:1rem">⟲</button>
+          </div>
+          <div class="map-legend"><span><i style="background:rgba(69,54,184,.3);border:2px dashed #4536b8"></i>Service area</span><span><i style="background:#241862;border-radius:50%"></i>City served</span><label style="display:flex;gap:6px;align-items:center;cursor:pointer"><input type="checkbox" id="labels-tg"> Show names</label></div>
+          <div class="map-attr">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= HOUSE CLEANING ================= -->
+<div class="view" id="v-house-cleaning">
+  <div class="page-hero">
+    <div class="bg"><img src="assets/pro-windows.jpg" alt=""></div>
+    <div class="wrap">
+      <span class="eyebrow on-dark">🏠 House cleaning</span>
+      <h1>A spotless home, without lifting a finger</h1>
+      <p>From weekly upkeep to a top-to-bottom deep clean, we take care of every room, so you can enjoy your time at home.</p>
+      <div class="ctas"><a href="#estimate" class="btn btn-aqua" data-est="house">Calculate house cleaning price</a><a href="tel:+15084937469" class="btn btn-outline-white" data-phone-link>Text us: <span data-phone>(508) 493-7469</span></a></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Cleaning plans</div><h2 class="display">Pick the clean that fits your home</h2><span class="rule c"></span><p>Starting prices for a 2 bed / 1 bath home. Use the calculator for your exact rooms and size.</p></div>
+      <div class="pkg-grid" id="house-pkgs"></div>
+    </div>
+  </section>
+
+  <section class="team-sec">
+    <div class="wrap media-row">
+      <div class="team-photo reveal"><img src="assets/team-arriving.jpg" alt="Elegance cleaning team arriving at a client's home"><img class="team-inset" src="assets/pro-kitchen.jpg" alt="Elegance cleaner in a kitchen"></div>
+      <div class="reveal">
+        <div class="kicker">Our team</div>
+        <h2 class="display">A trusted team at your door</h2>
+        <span class="rule"></span>
+        <p>We arrive on time, in uniform, with all the supplies and equipment needed. You don't need to provide anything; just tell us your priorities and we take care of the rest.</p>
+        <ul class="ticks">
+          <li>All supplies and equipment included</li>
+          <li>The same trusted team on recurring visits</li>
+          <li>Careful with your furniture, floors and belongings</li>
+          <li>Final walkthrough so nothing is missed</li>
+        </ul>
+        <a class="btn btn-primary" href="#estimate" data-est="house" style="margin-top:26px">Price my home</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#fff">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">What's included</div><h2 class="display">Our room-by-room checklist</h2><span class="rule c"></span></div>
+      <div class="checklist">
+        <div class="room reveal"><img class="room-img" src="assets/pro-kitchen.jpg" alt="Kitchen cleaning" style="object-position:center 35%"><h3>🍳 Kitchen</h3><ul><li>Countertops &amp; backsplash wiped and sanitized</li><li>Sink and faucet scrubbed &amp; shined</li><li>Stovetop and appliance exteriors cleaned</li><li>Microwave inside &amp; out</li><li>Cabinet fronts spot-cleaned</li><li>Floors vacuumed &amp; mopped</li></ul></div>
+        <div class="room reveal"><img class="room-img" src="assets/house-bathtub.jpg" alt="Bathroom cleaning" style="object-position:center 60%"><h3>🛁 Bathrooms</h3><ul><li>Tub, shower &amp; tile scrubbed</li><li>Toilet cleaned &amp; disinfected</li><li>Mirrors &amp; fixtures polished</li><li>Vanity &amp; sink sanitized</li><li>Trash emptied</li><li>Floors washed</li></ul></div>
+        <div class="room reveal"><img class="room-img" src="assets/house-dusting.jpg" alt="Dusting furniture"><h3>🛏️ Bedrooms &amp; living</h3><ul><li>Dusting of all reachable surfaces</li><li>Light fixtures &amp; switches wiped</li><li>Beds made (linens changed on request)</li><li>Mirrors &amp; glass cleaned</li><li>Carpets vacuumed, hard floors mopped</li><li>General tidying</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap media-row">
+      <div class="reveal">
+        <span class="eyebrow">Details matter</span>
+        <h2 style="margin:16px 0 14px">We clean what others skip</h2>
+        <p>Light fixtures, tub corners, baseboards and the inside of appliances. Our deep clean covers the details that make a home feel fresh. Add-ons let you customize each visit.</p>
+        <div class="addon-imgs"><figure><img src="assets/house-laundry.jpg" alt="Laundry folding"><figcaption>Laundry wash &amp; fold</figcaption></figure><figure><img src="assets/house-vacuum.jpg" alt="Vacuuming carpet"><figcaption>Carpets vacuumed, hard floors mopped</figcaption></figure></div>
+        <div class="two-col" style="margin-top:24px" id="house-addons-list"></div>
+      </div>
+      <div class="media-pair reveal">
+        <a href="https://www.instagram.com/elegance_cleaningservices/reel/DbHohibgB-H/" target="_blank" rel="noopener"><img src="assets/house-bathtub.jpg" alt="Bathtub cleaning video"><span class="play" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:#fff;display:grid;place-items:center"><svg width="22" height="22" viewBox="0 0 24 24"><path fill="#241862" d="M8 5v14l11-7z"/></svg></span></a>
+        <a href="https://www.instagram.com/elegance_cleaningservices/reel/DbW2exUJR3G/" target="_blank" rel="noopener" style="margin-top:40px"><img src="assets/house-light-fixture.jpg" alt="Light fixture cleaning video"><span class="play" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:#fff;display:grid;place-items:center"><svg width="22" height="22" viewBox="0 0 24 24"><path fill="#241862" d="M8 5v14l11-7z"/></svg></span></a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0"><div class="wrap"><div class="cta-band"><div><h2>Ready for a cleaner home?</h2><p>Get your price in under a minute, based on your rooms and square footage.</p></div><div class="ctas"><a class="btn btn-aqua" href="#estimate" data-est="house">Calculate my price</a></div></div></div></section>
+</div>
+
+<!-- ================= CARPET ================= -->
+<div class="view" id="v-carpet-cleaning">
+  <div class="page-hero">
+    <div class="bg"><img src="assets/carpet-extraction.jpg" alt=""></div>
+    <div class="wrap">
+      <span class="eyebrow on-dark">🧶 Carpet &amp; upholstery</span>
+      <h1>Bring your carpets and furniture back to life</h1>
+      <p>Deep extraction cleaning for wall-to-wall carpet, area rugs, sofas, sectionals, chairs and mattresses. We lift stains, odors and allergens, not just the surface dirt.</p>
+      <div class="ctas"><a href="#estimate" class="btn btn-aqua" data-est="carpet">Calculate carpet &amp; upholstery price</a><a href="tel:+15084937469" class="btn btn-outline-white" data-phone-link>Text us: <span data-phone>(508) 493-7469</span></a></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Our process</div><h2 class="display">How we deep clean fabric &amp; fibers</h2><span class="rule c"></span></div>
+      <div class="steps">
+        <div class="step reveal"><h3>Inspect &amp; test</h3><p>We check the fiber type, colorfastness and problem spots before anything touches the fabric.</p></div>
+        <div class="step reveal"><h3>Pre-treat</h3><p>Targeted solutions loosen stains, spills, pet accidents and ground-in soil.</p></div>
+        <div class="step reveal"><h3>Deep extraction</h3><p>Hot-water extraction rinses deep into the fibers and pulls the dirt out.</p></div>
+        <div class="step reveal"><h3>Groom &amp; dry</h3><p>We groom the pile, speed up drying and do a final walkthrough with you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#fff">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Pricing</div><h2 class="display">Simple, transparent starting prices</h2><span class="rule c"></span><p>Final price is confirmed after a quick look at the job (photos are fine).</p></div>
+      <div class="two-col">
+        <table class="price-table reveal"><thead><tr><th>Carpet &amp; rugs</th><th>From</th></tr></thead><tbody id="carpet-prices"></tbody></table>
+        <table class="price-table reveal"><thead><tr><th>Upholstery</th><th>From</th></tr></thead><tbody id="uph-prices"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap media-row">
+      <div class="media-pair reveal">
+        <img src="assets/sofa-pet-stain.jpg" alt="Pet paw stains on a sofa being treated">
+        <img src="assets/upholstery-extraction.jpg" alt="Upholstery extraction on a velvet chair" style="margin-top:40px">
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Stain &amp; odor specialists</span>
+        <h2 style="margin:16px 0 14px">Coffee, wine, pets, kids: we've seen it all</h2>
+        <p>Light-colored fabrics, high-traffic carpet and family sofas take the most abuse. Our pre-treatments and deep extraction remove most everyday stains, and our odor treatment neutralizes pet smells at the source.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px"><a class="btn btn-primary" href="#estimate" data-est="carpet">Price my carpet or sofa</a><a class="btn btn-ghost" href="#gallery">See more results</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#fff">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Videos</div><h2 class="display">Watch the transformation</h2><span class="rule c"></span></div>
+      <div class="videos" id="videos-carpet"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= ESTIMATE ================= -->
+<div class="view" id="v-estimate">
+  <section style="padding-top:56px">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:28px"><div class="kicker">Instant estimate</div><h2 class="display">How much will it cost?</h2><span class="rule c"></span>
+        <p>Tell us about your space and get an estimated price range right away. Send it to us and we'll confirm your final quote.</p>
+      </div>
+      <div class="center"><div class="est-tabs" role="tablist">
+        <button class="on" data-tab="house" role="tab">🏠 House cleaning</button>
+        <button data-tab="carpet" role="tab">🧶 Carpet &amp; upholstery</button>
+      </div></div>
+
+      <div class="est-grid">
+        <div>
+          <!-- House form -->
+          <form class="est-form" id="f-house" onsubmit="return false">
+            <div class="fgroup"><span class="flabel">Type of cleaning</span><div class="opts" id="h-type"></div></div>
+            <div class="fgroup"><span class="flabel">Home size <small>approximate square footage</small></span>
+              <div class="range-row"><input type="range" id="h-sqft" min="500" max="5000" step="100" value="1400"><div class="range-val" id="h-sqft-v" data-noi18n>1,400 sq ft</div></div></div>
+            <div class="fgroup"><span class="flabel">Rooms</span><div class="counters" id="h-rooms"></div></div>
+            <div class="fgroup"><span class="flabel">Current condition</span><div class="opts" id="h-cond"></div></div>
+            <div class="fgroup"><span class="flabel">How often?</span><div class="opts" id="h-freq"></div></div>
+            <div class="fgroup"><span class="flabel">Extras</span><div class="checks" id="h-extras"></div>
+              <div class="counter" style="margin-top:10px;max-width:420px"><div class="cl">Interior windows<small>per window</small></div><div class="stepper" data-key="windows"></div></div></div>
+          </form>
+          <!-- Carpet form -->
+          <form class="est-form" id="f-carpet" onsubmit="return false" style="display:none">
+            <div class="fgroup"><span class="flabel">Carpeted rooms <small>add each room and its size</small></span>
+              <div class="rooms-list" id="c-rooms" data-noi18n></div>
+              <button class="add-room" id="c-add" type="button">+ Add a room</button></div>
+            <div class="fgroup"><span class="flabel">Stairs &amp; hallways</span><div class="counters" id="c-misc"></div></div>
+            <div class="fgroup"><span class="flabel">Area rugs</span><div class="counters" id="c-rugs"></div></div>
+            <div class="fgroup"><span class="flabel">Upholstery &amp; mattresses</span><div class="counters" id="c-uph"></div></div>
+            <div class="fgroup"><span class="flabel">Treatments</span><div class="checks" id="c-extras"></div></div>
+          </form>
+        </div>
+        <aside class="summary" id="summary">
+          <h3 id="s-title" data-noi18n>House cleaning estimate</h3>
+          <div class="big" id="s-range">$0</div>
+          <div class="sub" id="s-sub" data-noi18n>estimated price range</div>
+          <div class="lines" id="s-lines" data-noi18n></div>
+          <div class="meta" id="s-meta" data-noi18n></div>
+          <button class="btn btn-aqua" id="s-book">Request this quote</button>
+          <a class="btn btn-outline-white" href="tel:+15084937469" data-phone-link>Call / text <span data-phone>(508) 493-7469</span></a>
+          <p class="fine">Estimates are based on typical homes in our area. Your final price is confirmed after we review photos or visit, and may change with access, condition or special materials.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= GALLERY ================= -->
+<div class="view" id="v-gallery">
+  <section style="padding-top:56px">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">Our work</div><h2 class="display">Before &amp; after gallery</h2><span class="rule c"></span><p>Real results from Elegance clients across Massachusetts and Rhode Island.</p></div>
+      <div class="gal-filter" id="gal-filter">
+        <button class="on" data-f="all">All</button><button data-f="upholstery">Upholstery</button><button data-f="carpet">Carpets &amp; rugs</button><button data-f="house">House cleaning</button>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div class="view" id="v-about">
+  <section style="padding-top:64px">
+    <div class="wrap about-grid">
+      <div class="about-photo reveal"><img src="assets/pro-windows.jpg" alt="Elegance professional cleaning windows"></div>
+      <div class="about-card reveal" style="display:none">
+        <img src="assets/logo-white.png" alt="Elegance Cleaning Services">
+        <blockquote>“Healthy, inviting spaces, delivered with a personal touch.”</blockquote>
+        <cite>Ítalo &amp; Maristela, Co-CEOs</cite>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">About us</span>
+        <h2 style="margin:16px 0 16px">A family business built on trust</h2>
+        <p>Elegance was envisioned by Ítalo and brought to life by him and his wife, Maristela. Together as co-CEOs, they share a passion for top-quality cleaning for homes, upholstery and carpets.</p>
+        <p style="margin-top:14px">Their mission is to create healthy, inviting spaces while respecting the environment and putting their clients' well-being first. By working side by side on every project, Ítalo and Maristela bring a personal touch, excellent results and lasting trust.</p>
+        <div class="values">
+          <div><b>Personal touch</b><p>The owners are on every job.</p></div>
+          <div><b>Health first</b><p>Safe for kids, pets and allergies.</p></div>
+          <div><b>Eco-conscious</b><p>Respect for your home and the environment.</p></div>
+          <div><b>Lasting trust</b><p>Clients who call us back again and again.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<div class="view" id="v-contact">
+  <section style="padding-top:64px">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">Contact us</div><h2 class="display">Let's make your space shine</h2><span class="rule c"></span><p>Call, text or message us on Instagram. Sending photos of the job helps us give you an exact quote.</p></div>
+      <div class="contact-grid">
+        <a class="ccard" href="tel:+15084937469" data-phone-link><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></div><b data-phone>(508) 493-7469</b><small>Call or text</small></a>
+        <a class="ccard" href="https://www.eleganceinupholstery.com" target="_blank" rel="noopener"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div><b>eleganceinupholstery.com</b><small>Website</small></a>
+        <a class="ccard" href="https://www.instagram.com/elegance_cleaningservices/" target="_blank" rel="noopener"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg></div><b>@elegance_cleaningservices</b><small>Instagram</small></a>
+      </div>
+      <div style="margin-top:40px" class="cta-band"><div><h2>Want a price first?</h2><p>Use our calculator and send us the estimate in one tap.</p></div><div class="ctas"><a class="btn btn-aqua" href="#estimate">Open the calculator</a><a class="btn btn-outline-white" href="#home" data-goto="areas">See areas we serve</a></div></div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><img src="assets/logo-white.png" alt="Elegance" style="width:150px;margin-bottom:14px"><p style="color:#b9b3e6">Home, carpet and upholstery cleaning across Southeastern Massachusetts and Rhode Island.</p></div>
+      <div><h4>Services</h4><a href="#house-cleaning">House cleaning</a><a href="#carpet-cleaning">Carpet cleaning</a><a href="#carpet-cleaning">Upholstery cleaning</a><a href="#estimate">Price calculator</a></div>
+      <div><h4>Company</h4><a href="#about">About us</a><a href="#gallery">Results</a><a href="#home" data-goto="areas">Cities we serve</a><a href="#contact">Contact</a></div>
+      <div><h4>Get in touch</h4><a href="tel:+15084937469" data-phone-link data-phone>(508) 493-7469</a><a href="https://www.instagram.com/elegance_cleaningservices/" target="_blank" rel="noopener">Instagram</a><a href="https://www.eleganceinupholstery.com" target="_blank" rel="noopener">eleganceinupholstery.com</a></div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="yr"></span> Elegance Cleaning Services. All rights reserved.</span><span>Map data © OpenStreetMap contributors</span></div>
+  </div>
+</footer>
+
+<div class="fab">
+  <a class="est" href="#estimate" aria-label="Get an estimate"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#08302e" stroke-width="2.2"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 11h2M14 11h2M8 15h2M14 15h2M8 19h8"/></svg></a>
+  <a href="tel:+15084937469" data-phone-link aria-label="Call"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a>
+</div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="modal-card">
+    <button class="x" id="m-close" aria-label="Close">✕</button>
+    <h3 id="m-title">Request your quote</h3>
+    <p style="font-size:.92rem">Add your details and we'll prepare a message with your estimate. Send it to us by text or Instagram, and we'll confirm the final price and a date.</p>
+    <form class="qform" id="qform">
+      <div><label for="q-name">Name</label><input id="q-name" required></div>
+      <div><label for="q-phone">Phone</label><input id="q-phone" type="tel"></div>
+      <div><label for="q-city">City / town</label><input id="q-city" list="town-list"></div>
+      <div><label for="q-date">Preferred date</label><input id="q-date" type="date"></div>
+      <div class="full"><label for="q-notes">Notes (stains, pets, access…)</label><textarea id="q-notes" rows="2"></textarea></div>
+      <div class="full"><button class="btn btn-primary" style="width:100%" type="submit">Prepare my message</button></div>
+    </form>
+    <div id="q-out" style="display:none">
+      <div class="msg-box" id="q-msg" data-noi18n></div>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="q-copy" type="button">Copy message</button>
+        <a class="btn btn-aqua" id="q-sms" href="#">Open in Messages</a>
+        <a class="btn btn-ghost" href="https://ig.me/m/elegance_cleaningservices" target="_blank" rel="noopener">Instagram DM</a>
+      </div>
+      <p style="font-size:.8rem;margin-top:12px">Text it to <b data-phone>(508) 493-7469</b>. Your message is not sent until you send it from your phone or Instagram.</p>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox"><button class="x" id="lb-close" aria-label="Close">✕</button><img id="lb-img" alt=""></div>
+<div class="toast" id="toast"></div>
+
+<script src="assets/i18n.js"></script>
+<script>
+/* ========================= i18n (EN / ES / PT) ========================= */
+const DICT = window.ELEGANCE_I18N || {es:{},pt:{}};
+let LANG = "en";
+try{ LANG = localStorage.getItem("elegance-lang") || ""; }catch(e){ LANG=""; }
+if(!["en","es","pt"].includes(LANG)){ const n=(navigator.language||"en").slice(0,2).toLowerCase(); LANG = n==="es"?"es":n==="pt"?"pt":"en"; }
+const norm = t => t.replace(/\s+/g," ").trim();
+window.__missing = new Set();
+function T(en){ if(LANG==="en") return en; const v=(DICT[LANG]||{})[en]; if(v===undefined){window.__missing.add(en);return en} return v; }
+const I18N_ATTRS=["placeholder","aria-label","alt","title"];
+function skip(n){ const el=n.nodeType===3?n.parentElement:n; return !el || el.closest("script,style,[data-noi18n],svg"); }
+function trText(n){
+  if(n.__en===undefined) n.__en=n.nodeValue;
+  const raw=n.__en, k=norm(raw); if(!k || !/[A-Za-z]/.test(k)) return;
+  let out=raw;
+  if(LANG!=="en"){ const v=(DICT[LANG]||{})[k]; if(v!==undefined){ const m=raw.match(/^(\s*)[\s\S]*?(\s*)$/); out=m[1]+v+m[2]; } else window.__missing.add(k); }
+  if(n.nodeValue!==out) n.nodeValue=out;
+}
+function trAttrs(el){
+  I18N_ATTRS.forEach(a=>{ if(!el.hasAttribute(a)) return; const key="__en_"+a; if(el[key]===undefined) el[key]=el.getAttribute(a);
+    const en=el[key]; if(!en||!/[A-Za-z]/.test(en)) return; let v=en; if(LANG!=="en"){ const t=(DICT[LANG]||{})[norm(en)]; if(t!==undefined) v=t; else window.__missing.add(norm(en)); } if(el.getAttribute(a)!==v) el.setAttribute(a,v); });
+}
+function trTree(root){
+  if(root.nodeType===3){ if(!skip(root)) trText(root); return; }
+  if(root.nodeType!==1 || skip(root)) return;
+  trAttrs(root); root.querySelectorAll("*").forEach(el=>{ if(!skip(el)) trAttrs(el); });
+  const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>skip(n)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+  let n; while((n=w.nextNode())) trText(n);
+}
+const TITLES={en:"Elegance Cleaning Services | Home, Carpet & Upholstery Cleaning in MA & RI",es:"Elegance Cleaning Services | Limpieza de casas, alfombras y tapicería en MA y RI",pt:"Elegance Cleaning Services | Limpeza de casas, carpetes e estofados em MA e RI"};
+const LANG_HOOKS=[];
+function setLang(l){
+  LANG=l; try{localStorage.setItem("elegance-lang",l)}catch(e){}
+  document.documentElement.lang = l==="pt"?"pt-BR":l;
+  document.title=TITLES[l];
+  document.querySelectorAll("[data-lang]").forEach(b=>b.classList.toggle("on",b.dataset.lang===l));
+  trTree(document.body); LANG_HOOKS.forEach(f=>f());
+}
+new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(trTree))).observe(document.documentElement,{childList:true,subtree:true});
+document.addEventListener("click",e=>{const b=e.target.closest("[data-lang]"); if(b){e.preventDefault(); setLang(b.dataset.lang);}});
+</script>
+<script>
+/* =========================================================
+   BUSINESS SETTINGS: edit prices, phone and cities here
+   ========================================================= */
+const BUSINESS = {
+  phoneDisplay: "(508) 493-7469",
+  phoneE164: "+15084937469",
+  instagram: "https://www.instagram.com/elegance_cleaningservices/"
+};
+
+const HOUSE = {
+  types: [
+    {id:"standard", name:"Standard", note:"Regular upkeep", base:80, mult:1},
+    {id:"deep", name:"Deep clean", note:"Top-to-bottom detail", base:80, mult:1.6},
+    {id:"move", name:"Move in / out", note:"Empty home, inside cabinets", base:80, mult:1.85},
+    {id:"construction", name:"Post-renovation", note:"Dust & debris removal", base:80, mult:2.1}
+  ],
+  perSqft: 0.035,              // added per sq ft above 800
+  rooms: [
+    {key:"bed", label:"Bedrooms", price:15, def:2, max:8},
+    {key:"bath", label:"Full bathrooms", price:25, def:1, max:6},
+    {key:"half", label:"Half bathrooms", price:15, def:0, max:4},
+    {key:"living", label:"Living / family rooms", price:10, def:1, max:5, sub:"kitchen included"},
+    {key:"office", label:"Office / den", price:15, def:0, max:4},
+    {key:"basement", label:"Finished basement", price:40, def:0, max:1}
+  ],
+  condition: [
+    {id:"light", name:"Well kept", note:"Cleaned recently", mult:1},
+    {id:"avg", name:"Average", note:"A few weeks of use", mult:1.1},
+    {id:"heavy", name:"Needs love", note:"Months / heavy buildup", mult:1.3}
+  ],
+  frequency: [
+    {id:"once", name:"One time", disc:0},
+    {id:"weekly", name:"Weekly", note:"save 20%", disc:.20},
+    {id:"biweekly", name:"Every 2 weeks", note:"save 15%", disc:.15},
+    {id:"monthly", name:"Monthly", note:"save 10%", disc:.10}
+  ],
+  extras: [
+    {key:"fridge", label:"Inside fridge", price:35},
+    {key:"oven", label:"Inside oven", price:35},
+    {key:"cabinets", label:"Inside cabinets", price:45},
+    {key:"baseboards", label:"Baseboards hand-wiped", price:35},
+    {key:"laundry", label:"Laundry wash & fold", price:25},
+    {key:"walls", label:"Wall spot cleaning", price:30},
+    {key:"pets", label:"Pets in the home", price:15}
+  ],
+  windowPrice: 6,
+  minimum: 120
+};
+
+const CARPET = {
+  roomSizes: [
+    {id:"s", name:"Small (up to 120 sq ft)", price:40},
+    {id:"m", name:"Medium (120 to 200 sq ft)", price:55},
+    {id:"l", name:"Large (200 to 300 sq ft)", price:75},
+    {id:"xl", name:"Extra large (300+ sq ft)", price:100}
+  ],
+  roomTypes: ["Bedroom","Living room","Family room","Dining room","Office","Basement","Other"],
+  misc: [
+    {key:"stairs", label:"Stair steps", price:4, def:0, max:40, sub:"per step"},
+    {key:"hall", label:"Hallways", price:25, def:0, max:6},
+    {key:"landing", label:"Landings / closets", price:15, def:0, max:6}
+  ],
+  rugs: [
+    {key:"rug_s", label:"Small rug", sub:"up to 3×5 ft", price:35, def:0, max:10},
+    {key:"rug_m", label:"Medium rug", sub:"5×8 ft", price:65, def:0, max:10},
+    {key:"rug_l", label:"Large rug", sub:"8×10 ft", price:95, def:0, max:10},
+    {key:"rug_xl", label:"Extra large rug", sub:"9×12 ft +", price:125, def:0, max:10}
+  ],
+  upholstery: [
+    {key:"sofa", label:"Sofa (3 seats)", price:110, def:0, max:6},
+    {key:"love", label:"Loveseat", price:85, def:0, max:6},
+    {key:"sect", label:"Sectional", sub:"per seat", price:40, def:0, max:12},
+    {key:"chair", label:"Armchair", price:55, def:0, max:10},
+    {key:"recl", label:"Recliner", price:65, def:0, max:10},
+    {key:"dining", label:"Dining chairs", price:18, def:0, max:16},
+    {key:"ottoman", label:"Ottoman", price:25, def:0, max:6},
+    {key:"mattress", label:"Mattress", sub:"queen / king", price:85, def:0, max:6}
+  ],
+  extras: [
+    {key:"protect", label:"Stain protector", pct:.15, note:"+15% of carpet & upholstery"},
+    {key:"deodor", label:"Deodorizer", price:20, note:"+$20"},
+    {key:"pet", label:"Pet odor treatment", perArea:25, note:"+$25 per room / rug"},
+    {key:"spot", label:"Heavy stain spotting", price:30, note:"+$30"}
+  ],
+  minimum: 150
+};
+
+const CITIES = {
+  "Massachusetts":[
+    ["Boston",42.3601,-71.0589],["Quincy",42.2529,-71.0023],["Braintree",42.2079,-71.0040],["Weymouth",42.2180,-70.9410],["Framingham",42.2793,-71.4162],
+    ["Brockton",42.0834,-71.0184],["Easton",42.0245,-71.1287],["Mansfield",42.0334,-71.2190],["Attleboro",41.9445,-71.2856],["Taunton",41.9001,-71.0898],
+    ["Plymouth",41.9584,-70.6673],["Seekonk",41.8084,-71.3370],["Swansea",41.7482,-71.1898],["Somerset",41.7690,-71.1287],["Fall River",41.7015,-71.1550],
+    ["Westport",41.5868,-71.0828],["Dartmouth",41.6162,-70.9970],["New Bedford",41.6362,-70.9342],["Wareham",41.7612,-70.7197],["Falmouth",41.5515,-70.6148],["Barnstable (Hyannis)",41.6532,-70.2881]
+  ],
+  "Rhode Island":[
+    ["Providence",41.8240,-71.4128],["Pawtucket",41.8787,-71.3826],["East Providence",41.8137,-71.3701],["Cranston",41.7798,-71.4373],["Warwick",41.7001,-71.4162],
+    ["East Greenwich",41.6604,-71.4559],["Barrington",41.7407,-71.3087],["Bristol",41.6771,-71.2662],["Tiverton",41.6259,-71.2134],["Portsmouth",41.6023,-71.2503],
+    ["Middletown",41.5457,-71.2912],["Newport",41.4901,-71.3128],["Jamestown",41.4968,-71.3673],["North Kingstown",41.5501,-71.4662],["Narragansett",41.4501,-71.4495]
+  ]
+};
+const AREA = [[42.405,-71.12],[42.33,-71.33],[42.30,-71.47],[42.10,-71.44],[41.93,-71.52],[41.72,-71.53],[41.58,-71.52],[41.42,-71.50],[41.42,-71.40],[41.46,-71.28],[41.50,-71.16],[41.52,-70.98],[41.52,-70.68],[41.60,-70.40],[41.62,-70.20],[41.73,-70.22],[41.80,-70.50],[42.00,-70.60],[42.18,-70.78],[42.28,-70.88],[42.33,-70.95],[42.39,-70.99]];
+
+const MEDIA = {
+  videos: [
+    {img:"assets/video-sofa.jpg", t:"Sofa deep clean", s:"Upholstery", url:"https://www.instagram.com/elegance_cleaningservices/reel/DQ440igCVIU/", cat:"carpet"},
+    {img:"assets/carpet-stripe.jpg", t:"Carpet extraction", s:"Carpet", url:"https://www.instagram.com/elegance_cleaningservices/reel/DMl8Xl2JiT4/", cat:"carpet"},
+    {img:"assets/rug-after.jpg", t:"Area rug revival", s:"Rugs", url:"https://www.instagram.com/elegance_cleaningservices/reel/DMBMCxhJiFr/", cat:"carpet"},
+    {img:"assets/house-bathtub.jpg", t:"Bathtub detail", s:"House cleaning", url:"https://www.instagram.com/elegance_cleaningservices/reel/DbHohibgB-H/", cat:"house"},
+    {img:"assets/house-light-fixture.jpg", t:"Light fixtures", s:"House cleaning", url:"https://www.instagram.com/elegance_cleaningservices/reel/DbW2exUJR3G/", cat:"house"}
+  ],
+  ba: [
+    {k:"tufted-chair", cap:"Tufted accent chair: stains and dullness removed, fabric restored."},
+    {k:"rug", cap:"Patterned area rug: pet stains and traffic soil lifted, colors brightened."},
+    {k:"armchair", cap:"Light armchair: coffee and food stains removed from arms and seat."},
+    {k:"sectional", cap:"Sectional sofa: water marks and body-oil stains gone, even color restored."}
+  ],
+  gallery: [
+    {img:"assets/ba-tufted-chair.jpg", cap:"Tufted chair", cat:"upholstery"},
+    {img:"assets/ba-rug.jpg", cap:"Area rug", cat:"carpet"},
+    {img:"assets/ba-sofa-stain.jpg", cap:"Recliner sofa", cat:"upholstery"},
+    {img:"assets/ba-armchair.jpg", cap:"Armchair", cat:"upholstery"},
+    {img:"assets/ba-sectional.jpg", cap:"Sectional", cat:"upholstery"},
+    {img:"assets/carpet-room.jpg", cap:"Bedroom carpet", cat:"carpet"},
+    {img:"assets/carpet-stripe.jpg", cap:"Carpet extraction", cat:"carpet"},
+    {img:"assets/house-bathtub.jpg", cap:"Bathroom", cat:"house"},
+    {img:"assets/house-light-fixture.jpg", cap:"Light fixtures", cat:"house"},
+    {img:"assets/video-sofa.jpg", cap:"Sofa treatment", cat:"upholstery"},
+    {img:"assets/upholstery-extraction.jpg", cap:"Velvet chair extraction", cat:"upholstery"},
+    {img:"assets/rug-after.jpg", cap:"Rug after cleaning", cat:"carpet"}
+  ]
+};
+
+/* ========================= helpers ========================= */
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const money = n => "$" + Math.round(n).toLocaleString("en-US");
+const r5 = n => Math.round(n/5)*5;
+const playSvg = '<svg width="24" height="24" viewBox="0 0 24 24"><path fill="#241862" d="M8 5v14l11-7z"/></svg>';
+const chk = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3cc6c0" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>';
+function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("show");clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove("show"),2600)}
+$("#yr").textContent = new Date().getFullYear();
+$$("[data-phone]").forEach(e=>e.textContent=BUSINESS.phoneDisplay);
+$$("[data-phone-link]").forEach(e=>e.href="tel:"+BUSINESS.phoneE164);
+
+/* ========================= routing ========================= */
+var modal=document.getElementById("modal");
+const VIEWS = ["home","house-cleaning","carpet-cleaning","estimate","gallery","about","contact"];
+let pendingScroll = null;
+function route(){
+  let h = (location.hash||"#home").slice(1);
+  if(!VIEWS.includes(h)) h = "home";
+  $$(".view").forEach(v=>v.classList.toggle("show", v.id==="v-"+h));
+  $$("[data-nav]").forEach(a=>a.classList.toggle("active", a.dataset.nav===h));
+  $("#navlinks").classList.remove("open"); modal&&modal.classList.remove("open"); document.getElementById("lightbox").classList.remove("open");
+  if(pendingScroll){const el=document.getElementById(pendingScroll);pendingScroll=null;setTimeout(()=>el&&el.scrollIntoView({behavior:"smooth"}),60)}
+  else window.scrollTo({top:0});
+  observeReveal();
+  if(h==="home") requestAnimationFrame(fitMap);
+}
+window.addEventListener("hashchange", route);
+document.addEventListener("click", e=>{
+  const g = e.target.closest("[data-goto]"); if(g){pendingScroll=g.dataset.goto; if(location.hash==="#home"||!location.hash){e.preventDefault();route()}}
+  const est = e.target.closest("[data-est]"); if(est) setTab(est.dataset.est);
+});
+$("#burger").onclick = ()=>$("#navlinks").classList.toggle("open");
+
+/* reveal on scroll */
+let io;
+function observeReveal(){
+  if(!("IntersectionObserver" in window)){$$(".reveal").forEach(e=>e.classList.add("in"));return}
+  io = io || new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add("in");io.unobserve(en.target)}}),{threshold:.12});
+  $$(".view.show .reveal:not(.in)").forEach(e=>io.observe(e));
+}
+
+const TICK=["Family owned &amp; operated","Free online estimates","Pet &amp; kid friendly","House cleaning","Carpet &amp; rug cleaning","Upholstery &amp; mattresses","Serving MA &amp; RI"];
+$("#ticker").innerHTML=(TICK.map(t=>`<span>${t}</span><i>✦</i>`).join("")).repeat(2);
+/* ========================= media ========================= */
+function vidCard(v){return `<a class="vid" href="${v.url}" target="_blank" rel="noopener"><img src="${v.img}" alt="${v.t}" loading="lazy"><span class="play">${playSvg}</span><span class="vcap"><span>${v.t}</span><small><span>${v.s}</span> · <span>Watch on Instagram</span></small></span></a>`}
+$("#videos").innerHTML = MEDIA.videos.map(vidCard).join("");
+$("#videos-carpet").innerHTML = MEDIA.videos.filter(v=>v.cat==="carpet").concat(MEDIA.videos.filter(v=>v.cat!=="carpet")).slice(0,5).map(vidCard).join("");
+
+/* before / after slider */
+const ba=$("#ba"), clip=$("#ba-clip"), handle=$("#ba-handle");
+function setBA(p){p=Math.max(0,Math.min(100,p));clip.style.clipPath=`inset(0 0 0 ${p}%)`;handle.style.left=p+"%"}
+function baFromEvent(e){const r=ba.getBoundingClientRect();setBA((e.clientX-r.left)/r.width*100)}
+let baDrag=false;
+ba.addEventListener("pointerdown",e=>{baDrag=true;ba.setPointerCapture(e.pointerId);baFromEvent(e)});
+ba.addEventListener("pointermove",e=>{if(baDrag)baFromEvent(e)});
+ba.addEventListener("pointerup",()=>baDrag=false);
+ba.addEventListener("pointercancel",()=>baDrag=false);
+$("#ba-thumbs").innerHTML = MEDIA.ba.map((b,i)=>`<button class="${i?"":"on"}" data-i="${i}" aria-label="${b.cap}"><img src="assets/after-${b.k}.jpg" alt=""></button>`).join("");
+$("#ba-thumbs").onclick = e=>{const b=e.target.closest("button");if(!b)return;const it=MEDIA.ba[b.dataset.i];
+  $$("#ba-thumbs button").forEach(x=>x.classList.toggle("on",x===b));
+  $("#ba-before").src=`assets/before-${it.k}.jpg`;$("#ba-after").src=`assets/after-${it.k}.jpg`;$("#ba-cap").textContent=it.cap;setBA(50)};
+// gentle intro animation
+let introT=0;const intro=setInterval(()=>{introT+=.05;setBA(50+Math.sin(introT)*22);if(introT>Math.PI*2){clearInterval(intro);setBA(50)}},30);
+ba.addEventListener("pointerdown",()=>clearInterval(intro),{once:true});
+
+/* gallery */
+$("#gallery").innerHTML = MEDIA.gallery.map(g=>`<a class="gitem" data-cat="${g.cat}" href="${g.img}"><img src="${g.img}" alt="${g.cap}" loading="lazy"><span class="gcap">${g.cap}</span></a>`).join("");
+$("#gal-filter").onclick = e=>{const b=e.target.closest("button");if(!b)return;$$("#gal-filter button").forEach(x=>x.classList.toggle("on",x===b));
+  $$(".gitem").forEach(g=>g.classList.toggle("hide", b.dataset.f!=="all" && g.dataset.cat!==b.dataset.f))};
+$("#gallery").onclick = e=>{const a=e.target.closest(".gitem");if(!a)return;e.preventDefault();$("#lb-img").src=a.getAttribute("href");$("#lightbox").classList.add("open")};
+$("#lb-close").onclick = ()=>$("#lightbox").classList.remove("open");
+$("#lightbox").onclick = e=>{if(e.target.id==="lightbox")$("#lightbox").classList.remove("open")};
+
+/* service page price lists */
+(function(){
+  const t2 = HOUSE.types.map((t,i)=>{
+    const R=k=>HOUSE.rooms.find(r=>r.key===k).price; const est = (t.base + 2*R("bed") + R("bath") + R("living") + 600*HOUSE.perSqft) * t.mult;
+    const feats = {standard:["All rooms dusted & wiped","Kitchen & bathrooms sanitized","Floors vacuumed & mopped","Trash emptied, beds made"],
+      deep:["Everything in Standard","Baseboards, doors & switches","Light fixtures & vents","Heavy buildup on tile & grout","Behind & under accessible furniture"],
+      move:["Everything in Deep clean","Inside cabinets & drawers","Inside fridge & oven","Closets & shelves","Ready for keys handover"],
+      construction:["Fine dust removal on all surfaces","Paint & sticker residue","Windows, sills & tracks","Multiple detail passes"]}[t.id];
+    return {t,est,feats};
+  }).slice(0,3);
+  $("#house-pkgs").innerHTML = t2.map((x,i)=>`<div class="pkg reveal ${i===1?"pop":""}">${i===1?`<span class="pop-badge">Most popular</span>`:""}<h3>${x.t.name}</h3><p style="font-size:.9rem">${x.t.note}</p><div class="from">${money(r5(x.est))} <small>starting</small></div><ul>${x.feats.map(f=>`<li>${chk}${f}</li>`).join("")}</ul><a class="btn ${i===1?"btn-primary":"btn-ghost"}" href="#estimate" data-est="house" data-type="${x.t.id}">Price my home</a></div>`).join("");
+  $("#house-addons-list").innerHTML = HOUSE.extras.filter(e=>e.key!=="pets").map(e=>`<div style="display:flex;gap:10px;align-items:center;font-size:.95rem">${chk}<span>${e.label} <b style="color:var(--navy)">+${money(e.price)}</b></span></div>`).join("") + `<div style="display:flex;gap:10px;align-items:center;font-size:.95rem">${chk}<span>Interior windows <b style="color:var(--navy)">+${money(HOUSE.windowPrice)}/ea</b></span></div>`;
+  $("#carpet-prices").innerHTML = CARPET.roomSizes.map(s=>`<tr><td><span>Room</span>: <span>${s.name}</span></td><td>${money(s.price)}</td></tr>`).join("") + CARPET.misc.map(m=>`<tr><td><span>${m.label}</span>${m.sub?` (<span>${m.sub}</span>)`:""}</td><td>${money(m.price)}</td></tr>`).join("") + CARPET.rugs.map(m=>`<tr><td><span>${m.label}</span> (<span>${m.sub}</span>)</td><td>${money(m.price)}</td></tr>`).join("");
+  $("#uph-prices").innerHTML = CARPET.upholstery.map(m=>`<tr><td><span>${m.label}</span>${m.sub?` (<span>${m.sub}</span>)`:""}</td><td>${money(m.price)}</td></tr>`).join("") + `<tr><td>Minimum service call</td><td>${money(CARPET.minimum)}</td></tr>`;
+})();
+document.addEventListener("click",e=>{const b=e.target.closest("[data-type]");if(b){const r=document.querySelector(`input[name=htype][value=${b.dataset.type}]`);if(r){r.checked=true;calc()}}});
+
+/* ========================= estimator ========================= */
+const state = {tab:"house", h:{windows:0}, c:{rooms:[{type:"Living room",size:"m"},{type:"Bedroom",size:"m"}]}};
+function radioOpts(el,name,list,def){el.innerHTML=list.map(o=>`<label class="opt"><input type="radio" name="${name}" value="${o.id}" ${o.id===def?"checked":""}><span><b>${o.name}</b><em>${o.note||""}</em></span></label>`).join("")}
+function stepperHTML(key,val){return `<button type="button" data-dec="${key}" aria-label="Less">−</button><output data-out="${key}">${val}</output><button type="button" data-inc="${key}" aria-label="More">+</button>`}
+function counters(el,list,bag){el.innerHTML=list.map(o=>{bag[o.key]=bag[o.key]??o.def;const each=(o.sub==="per step"||o.sub==="per seat")?"":` <span>each</span>`;return `<div class="counter"><div class="cl"><span>${o.label}</span><small>${o.sub?`<span>${o.sub}</span> · `:""}${money(o.price)}${each}</small></div><div class="stepper">${stepperHTML(o.key,bag[o.key])}</div></div>`}).join("")}
+function checks(el,list,name){el.innerHTML=list.map(o=>`<label class="check"><input type="checkbox" name="${name}" value="${o.key}"><span>${o.label}</span><small>${o.note||"+"+money(o.price)}</small></label>`).join("")}
+
+radioOpts($("#h-type"),"htype",HOUSE.types,"standard");
+radioOpts($("#h-cond"),"hcond",HOUSE.condition,"avg");
+radioOpts($("#h-freq"),"hfreq",HOUSE.frequency,"once");
+counters($("#h-rooms"),HOUSE.rooms,state.h);
+checks($("#h-extras"),HOUSE.extras,"hext");
+$('[data-key="windows"]').innerHTML = stepperHTML("windows",0);
+counters($("#c-misc"),CARPET.misc,state.c);
+counters($("#c-rugs"),CARPET.rugs,state.c);
+counters($("#c-uph"),CARPET.upholstery,state.c);
+checks($("#c-extras"),CARPET.extras,"cext");
+
+const limits = {}; [...HOUSE.rooms,...CARPET.misc,...CARPET.rugs,...CARPET.upholstery].forEach(o=>limits[o.key]=o.max); limits.windows=40;
+document.addEventListener("click",e=>{
+  const inc=e.target.closest("[data-inc]"), dec=e.target.closest("[data-dec]"); if(!inc&&!dec)return;
+  const key=(inc||dec).dataset.inc||(inc||dec).dataset.dec; const bag = key in state.h ? state.h : state.c;
+  bag[key]=Math.max(0,Math.min(limits[key]||99,(bag[key]||0)+(inc?1:-1)));
+  $$(`[data-out="${key}"]`).forEach(o=>o.textContent=bag[key]); calc();
+});
+function renderRooms(){
+  $("#c-rooms").innerHTML = state.c.rooms.map((r,i)=>`<div class="room-row"><select data-ri="${i}" data-f="type" aria-label="${T("Room type")}">${CARPET.roomTypes.map(t=>`<option value="${t}" ${t===r.type?"selected":""}>${T(t)}</option>`).join("")}</select><select data-ri="${i}" data-f="size" aria-label="${T("Room size")}">${CARPET.roomSizes.map(s=>`<option value="${s.id}" ${s.id===r.size?"selected":""}>${T(s.name)} · ${money(s.price)}</option>`).join("")}</select><button type="button" class="rm" data-rm="${i}" aria-label="${T("Remove room")}">×</button></div>`).join("") || `<p style="font-size:.9rem">${T("No carpeted rooms. Add one, or price rugs and upholstery only.")}</p>`;
+}
+renderRooms();
+$("#c-add").onclick=()=>{state.c.rooms.push({type:"Bedroom",size:"m"});renderRooms();calc()};
+$("#c-rooms").addEventListener("change",e=>{const s=e.target.closest("[data-ri]");if(!s)return;state.c.rooms[s.dataset.ri][s.dataset.f]=s.value;calc()});
+$("#c-rooms").addEventListener("click",e=>{const b=e.target.closest("[data-rm]");if(!b)return;state.c.rooms.splice(+b.dataset.rm,1);renderRooms();calc()});
+$("#h-sqft").addEventListener("input",()=>{updSqft();calc()});
+function updSqft(){$("#h-sqft-v").textContent=(+$("#h-sqft").value).toLocaleString("en-US")+(+$("#h-sqft").value>=5000?"+":"")+" "+T("sq ft")}
+$("#f-house").addEventListener("change",calc);$("#f-carpet").addEventListener("change",calc);
+
+function setTab(t){state.tab=t;$$(".est-tabs button").forEach(b=>b.classList.toggle("on",b.dataset.tab===t));$("#f-house").style.display=t==="house"?"":"none";$("#f-carpet").style.display=t==="carpet"?"":"none";calc()}
+$$(".est-tabs button").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
+
+let lastQuote=null;
+function calc(){
+  const lines=[]; let total=0, low, high, meta=[];
+  if(state.tab==="house"){
+    const type=HOUSE.types.find(t=>t.id===$("input[name=htype]:checked").value);
+    const cond=HOUSE.condition.find(t=>t.id===$("input[name=hcond]:checked").value);
+    const freq=HOUSE.frequency.find(t=>t.id===$("input[name=hfreq]:checked").value);
+    const sqft=+$("#h-sqft").value;
+    let core=type.base; lines.push([T("Base visit"),type.base]);
+    const sq=Math.max(0,sqft-800)*HOUSE.perSqft; core+=sq; if(sq>0)lines.push([`${T("Home size")} (${sqft.toLocaleString("en-US")} ${T("sq ft")})`,sq]);
+    HOUSE.rooms.forEach(r=>{const n=state.h[r.key];if(n){core+=n*r.price;lines.push([`${n} × ${T(r.label)}`,n*r.price])}});
+    const mult=type.mult*cond.mult; const adj=core*(mult-1); if(adj)lines.push([`${T(type.name)}${cond.mult>1?" · "+T(cond.name):""}`,adj]);
+    let sub=core*mult;
+    let ex=0; $$("input[name=hext]:checked").forEach(c=>{const o=HOUSE.extras.find(x=>x.key===c.value);ex+=o.price;lines.push([T(o.label),o.price])});
+    if(state.h.windows){ex+=state.h.windows*HOUSE.windowPrice;lines.push([`${state.h.windows} × ${T("Interior windows")}`,state.h.windows*HOUSE.windowPrice])}
+    sub+=ex;
+    let disc=0; if(freq.disc && (type.id==="standard"||type.id==="deep")){disc=sub*freq.disc;lines.push([`${T("Discount")}: ${T(freq.name)}`,-disc,true])}
+    total=Math.max(HOUSE.minimum,sub-disc);
+    const hours=Math.max(2,total/55); meta=[`⏱ ~${(Math.round(hours*2)/2).toString()} ${T("hrs (team of 2)")}`, freq.disc&&disc?`🔁 ${T(freq.name)}`:"📅 "+T("One visit")];
+    if(freq.disc && !disc && type.id!=="standard" && type.id!=="deep") meta[1]="ℹ️ "+T("Recurring discount applies to standard/deep");
+    $("#s-title").textContent=T("House cleaning estimate");
+    lastQuote={service:`${T("House cleaning")}: ${T(type.name)}`,details:[`${sqft.toLocaleString("en-US")} ${T("sq ft")}`,...HOUSE.rooms.filter(r=>state.h[r.key]).map(r=>`${state.h[r.key]} × ${T(r.label)}`),`${T("Current condition")}: ${T(cond.name)}`,`${T("How often?")} ${T(freq.name)}`]};
+  } else {
+    let carpetSub=0, areas=0;
+    const counts={}; state.c.rooms.forEach(r=>{const s=CARPET.roomSizes.find(x=>x.id===r.size);carpetSub+=s.price;areas++;counts[s.id]=(counts[s.id]||0)+1});
+    Object.entries(counts).forEach(([id,n])=>{const s=CARPET.roomSizes.find(x=>x.id===id);lines.push([`${n} × ${T(s.name)}`,n*s.price])});
+    [...CARPET.misc,...CARPET.rugs].forEach(o=>{const n=state.c[o.key];if(n){carpetSub+=n*o.price;lines.push([`${n} × ${T(o.label)}`,n*o.price]);if(o.key.startsWith("rug"))areas+=n}});
+    let uph=0; CARPET.upholstery.forEach(o=>{const n=state.c[o.key];if(n){uph+=n*o.price;lines.push([`${n} × ${T(o.label)}`,n*o.price])}});
+    let sub=carpetSub+uph;
+    $$("input[name=cext]:checked").forEach(c=>{const o=CARPET.extras.find(x=>x.key===c.value);let v=o.pct?sub*o.pct:o.perArea?o.perArea*Math.max(1,areas):o.price;lines.push([T(o.label),v]);sub+=v});
+    total=sub; if(total>0 && total<CARPET.minimum){lines.push([T("Minimum service adjustment"),CARPET.minimum-total]);total=CARPET.minimum}
+    const hours=Math.max(1.5,total/90); meta=[`⏱ ~${(Math.round(hours*2)/2)} ${T("hrs on site")}`,`💨 ${T("Dry in 4 to 8 hrs")}`];
+    $("#s-title").textContent=T("Carpet & upholstery estimate");
+    lastQuote={service:T("Carpet & upholstery cleaning"),details:[...state.c.rooms.map(r=>`${T(r.type)} (${T(CARPET.roomSizes.find(s=>s.id===r.size).name)})`),...[...CARPET.misc,...CARPET.rugs,...CARPET.upholstery].filter(o=>state.c[o.key]).map(o=>`${state.c[o.key]} × ${T(o.label)}`)]};
+  }
+  low=r5(total*0.9); high=r5(total*1.1);
+  $("#s-range").textContent = total? `${money(low)} ${T("to")} ${money(high)}` : "$0";
+  $("#s-sub").textContent = total? T("estimated price range") : T("add items to see your price");
+  $("#s-lines").innerHTML = lines.length? lines.map(([l,v,d])=>`<div class="${d?"disc":""}"><span>${l}</span><span>${d?"−":""}${money(Math.abs(v))}</span></div>`).join("") : `<div><span>Nothing selected yet</span></div>`;
+  $("#s-meta").innerHTML = total? meta.map(m=>`<span>${m}</span>`).join("") : "";
+  lastQuote.range = total? `${money(low)} ${T("to")} ${money(high)}` : "$0";
+  lastQuote.extras = $$(`input[name=${state.tab==="house"?"hext":"cext"}]:checked`).map(c=>c.parentElement.querySelector("span").textContent);
+}
+calc();
+
+/* quote modal */
+var modal=$("#modal");
+$("#s-book").onclick=()=>{$("#q-out").style.display="none";$("#qform").style.display="";modal.classList.add("open")};
+$("#m-close").onclick=()=>modal.classList.remove("open");
+modal.onclick=e=>{if(e.target===modal)modal.classList.remove("open")};
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){modal.classList.remove("open");$("#lightbox").classList.remove("open")}});
+$("#qform").addEventListener("submit",e=>{
+  e.preventDefault(); const q=lastQuote;
+  const msg = `${T("Hi Elegance! I'd like a quote.")}\n\n${T("Name")}: ${$("#q-name").value}\n${T("Phone")}: ${$("#q-phone").value||"-"}\n${T("City / town")}: ${$("#q-city").value||"-"}\n${T("Preferred date")}: ${$("#q-date").value||T("flexible")}\n\n${T("Service")}: ${q.service}\n${q.details.map(d=>"• "+d).join("\n")}${q.extras.length?"\n"+T("Extras")+": "+q.extras.join(", "):""}\n\n${T("Online estimate")}: ${q.range}${$("#q-notes").value?"\n"+T("Notes")+": "+$("#q-notes").value:""}`;
+  $("#q-msg").textContent=msg; $("#q-sms").href=`sms:${BUSINESS.phoneE164}?&body=${encodeURIComponent(msg)}`;
+  $("#qform").style.display="none"; $("#q-out").style.display="";
+});
+$("#q-copy").onclick=async()=>{try{await navigator.clipboard.writeText($("#q-msg").textContent);toast(T("Message copied. Paste it in a text to us."))}catch(err){const r=document.createRange();r.selectNodeContents($("#q-msg"));const s=getSelection();s.removeAllRanges();s.addRange(r);toast(T("Select and copy the message above."))}};
+
+/* ========================= map ========================= */
+const PROJ={W0:-71.87357248941996,N0:42.44311456485465,sx:1136.6677506776675,sy:65105.0924346358,ox:152,oy:36};
+const my=la=>Math.log(Math.tan(Math.PI/4+la*Math.PI/360));
+const px=(la,lo)=>[(lo-PROJ.W0)*PROJ.sx-PROJ.ox,(my(PROJ.N0)-my(la))*PROJ.sy-PROJ.oy];
+const svg=$("#map-svg");
+let svgHTML=`<polygon class="area" points="${AREA.map(([a,o])=>px(a,o).join(",")).join(" ")}"/>`;
+const allCities=[];
+Object.entries(CITIES).forEach(([st,list])=>list.forEach(([n,la,lo])=>{const [x,y]=px(la,lo);allCities.push({n,st,x,y});
+  svgHTML+=`<g class="pin" data-city="${n}" transform="translate(${x.toFixed(1)},${y.toFixed(1)})"><circle class="pulse" r="34"/><circle class="dot" r="14"/><text x="22" y="-18">${n}</text></g>`}));
+svg.innerHTML=svgHTML;
+$("#city-groups").innerHTML=Object.entries(CITIES).map(([st,l])=>`<h4>${st==="Massachusetts"?"MA":"RI"} · ${st}</h4><div class="chips">${l.map(c=>`<button class="chip" data-city="${c[0]}">${c[0]}</button>`).join("")}</div>`).join("");
+$("#town-list").innerHTML=allCities.map(c=>`<option value="${c.n.replace(/ \(.*/,"")}">`).join("");
+
+const box=$("#mapbox"), stage=$("#map-stage"); const MW=2069, MH=1618;
+let view={s:1,x:0,y:0}, minS=.3;
+function apply(){stage.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.s})`}
+function clampView(){const bw=box.clientWidth,bh=box.clientHeight,w=MW*view.s,h=MH*view.s;
+  view.x = w<=bw ? (bw-w)/2 : Math.min(0,Math.max(bw-w,view.x));
+  view.y = h<=bh ? (bh-h)/2 : Math.min(0,Math.max(bh-h,view.y));}
+function fitMap(){const bw=box.clientWidth,bh=box.clientHeight;if(!bw)return;minS=Math.max(bw/MW,bh/MH);view.s=minS;view.x=(bw-MW*view.s)/2;view.y=(bh-MH*view.s)/2;clampView();apply()}
+function zoomAt(f,cx,cy){const ns=Math.max(minS,Math.min(2,view.s*f));view.x=cx-(cx-view.x)*ns/view.s;view.y=cy-(cy-view.y)*ns/view.s;view.s=ns;clampView();apply()}
+function smooth(){stage.style.transition="transform .5s ease";setTimeout(()=>stage.style.transition="",520)}
+$("#zin").onclick=()=>{smooth();zoomAt(1.4,box.clientWidth/2,box.clientHeight/2)};
+$("#zout").onclick=()=>{smooth();zoomAt(1/1.4,box.clientWidth/2,box.clientHeight/2)};
+$("#zreset").onclick=()=>{smooth();fitMap();$$(".pin.on,.chip.on").forEach(e=>e.classList.remove("on"))};
+$("#labels-tg").onchange=e=>box.classList.toggle("labels",e.target.checked);
+box.addEventListener("wheel",e=>{if(!e.ctrlKey&&!e.metaKey&&view.s<=minS&&e.deltaY>0)return;e.preventDefault();const r=box.getBoundingClientRect();zoomAt(e.deltaY<0?1.15:1/1.15,e.clientX-r.left,e.clientY-r.top)},{passive:false});
+const ptrs=new Map(); let pinchD=0;
+box.addEventListener("pointerdown",e=>{if(e.target.closest(".map-ctrl,.map-legend"))return;box.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});box.classList.add("drag")});
+box.addEventListener("pointermove",e=>{if(!ptrs.has(e.pointerId))return;const p=ptrs.get(e.pointerId);
+  if(ptrs.size===2){const [a,b]=[...ptrs.values()];const d0=Math.hypot(a.x-b.x,a.y-b.y);ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});const [c,d]=[...ptrs.values()];const d1=Math.hypot(c.x-d.x,c.y-d.y);const r=box.getBoundingClientRect();if(d0)zoomAt(d1/d0,(c.x+d.x)/2-r.left,(c.y+d.y)/2-r.top);return}
+  view.x+=e.clientX-p.x;view.y+=e.clientY-p.y;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});clampView();apply()});
+const endPtr=e=>{ptrs.delete(e.pointerId);if(!ptrs.size)box.classList.remove("drag")};
+box.addEventListener("pointerup",endPtr);box.addEventListener("pointercancel",endPtr);
+function focusCity(name){const c=allCities.find(x=>x.n===name);if(!c)return;
+  $$(".pin,.chip").forEach(e=>e.classList.toggle("on",e.dataset.city===name));
+  const ns=Math.max(minS,Math.min(1.1,minS*2.4));view.s=ns;view.x=box.clientWidth/2-c.x*ns;view.y=box.clientHeight/2-c.y*ns;clampView();smooth();apply();
+  if(window.innerWidth<1020) box.scrollIntoView({behavior:"smooth",block:"center"});}
+$("#city-groups").onclick=e=>{const b=e.target.closest("[data-city]");if(b)focusCity(b.dataset.city)};
+svg.addEventListener("click",e=>{const g=e.target.closest(".pin");if(g)focusCity(g.dataset.city)});
+function checkTown(){const v=$("#town-in").value.trim().toLowerCase();const m=$("#town-msg");if(!v){m.textContent="";return}
+  const c=allCities.find(x=>x.n.toLowerCase().replace(/ \(.*/,"")===v||x.n.toLowerCase().includes(v));
+  if(c){m.innerHTML=`✅ ${T("Yes! We serve")} <b>${c.n}, ${c.st==="Massachusetts"?"MA":"RI"}</b>.`;focusCity(c.n)}
+  else m.innerHTML=`🤔 ${T("Not on our list yet, but we may still cover it. Text us at")} <b>${BUSINESS.phoneDisplay}</b>.`}
+$("#town-btn").onclick=checkTown;$("#town-in").addEventListener("keydown",e=>{if(e.key==="Enter")checkTown()});
+window.addEventListener("resize",()=>{if($("#v-home").classList.contains("show"))fitMap()});
+$("#map-stage img").addEventListener("load",fitMap);
+
+LANG_HOOKS.push(()=>{renderRooms();updSqft();calc();$("#town-msg").textContent="";if($("#q-out").style.display!=="none")$("#qform").dispatchEvent(new Event("submit",{cancelable:true}));});
+route();
+setLang(LANG);
+</script>
+</body>
+</html>
